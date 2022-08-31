@@ -1,0 +1,179 @@
+﻿@model Survey
+@{
+    ViewData["Title"] = "Edit Suvey";
+}
+
+<div class="box">
+    <div class="header"><h4>Edit Survey</h4></div>
+    <div class="content">
+                            
+        <form asp-action="Edit" class="form-horizontal margin-reset" method="post" enctype="multipart/form-data">
+
+            <input type="hidden" asp-for=Id />
+            <input type="hidden" asp-for=StartDate />
+            <input type="hidden" asp-for=EndDate />
+            <input type="hidden" asp-for=IsLaunched />
+            <input type="hidden" asp-for=UserId />
+            <input type="hidden" asp-for=LogoPath />
+            <input type="hidden" asp-for=BannerPath />
+            <input type="hidden" asp-for=BackgroundImagePath />
+
+            <div class="rowelement">
+                <div class="span3">
+                    Survey Name:
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for="Name" class="input-block-level" />
+                    <p class="help-block">Hint: Name the survey you want to create</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    Survey Department:
+                </div>
+                <div class="span5">
+                    @foreach (var d in ViewBag.Departments)
+                    {
+                        <span class="chk-box-spn">
+                            <input name="Department" type="checkbox"  style="margin:0px 4px 0 0;"  id="@d.ID" value="@d.ID">@d.Department
+                        </span>
+
+                    }
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    Survey Type:
+                </div>
+                <div class="span5">
+                    <label class="radio inline">
+                        <input type="radio" asp-for=SurveyType value="OPEN" checked="checked"> Open Survey
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" asp-for=SurveyType value="CLOSED"> Closed Survey
+                    </label>
+                    <p class="help-block">Hint: Open Survey has the same URL for all customers. Closed Survey has unique URLs</p>
+                    @*<p class="hint"></p>*@
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="separator"></div>
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    Survey Language:
+                </div>
+                <div class="span5">
+                    <label class="radio inline">
+                        <input type="radio" asp-for=Language value="English"> English
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" asp-for=Language value="Arabic"> Arabic
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" asp-for=Language value="Bilingual"> Bilingual
+                    </label>
+                    <p class="hint"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Upload Logo:
+                </div>
+                <div class="span3">
+                    <input type="file" name="logo" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="span2">
+                    @if (!string.IsNullOrWhiteSpace(@Model.LogoPath))
+                    {
+                        <img src=~/img/@Model.LogoPath asp-append-version="true" />
+                        <p class="help-block"><a asp-action="RemoveImage" asp-route-id="@Model.Id" asp-route-tag="logo">Remove Image</a></p>
+                    }
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Upload Banner:
+                </div>
+                <div class="span3">
+                    <input type="file" name="banner" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="span2">
+                    @if (!string.IsNullOrWhiteSpace(@Model.BannerPath))
+                    {
+                        <img src=~/img/@Model.BannerPath asp-append-version="true" />
+                        <p class="help-block"><a asp-action="RemoveImage" asp-route-id="@Model.Id" asp-route-tag="banner">Remove Image</a></p>
+                    }
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Upload Background Image:
+                </div>
+                <div class="span3">
+                    <input type="file" name="background" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="span2">
+                    @if (!string.IsNullOrWhiteSpace(@Model.BackgroundImagePath))
+                    {
+                        <img src=~/img/@Model.BackgroundImagePath asp-append-version="true" />
+                        <p class="help-block"><a asp-action="RemoveImage" asp-route-id="@Model.Id" asp-route-tag="background">Remove Image</a></p>
+                    }
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Maximum Responses:
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for="MaxResponse" class="input-block-level" />
+                    <p class="help-block">Hint: 0 for unlimited responses</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Question Per Page:
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for="QuestionPerPage" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-success pull-right">Update Survey</button>
+                </div>
+            </div>
+
+        </form>
+                                
+    </div>
+</div>

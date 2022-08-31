@@ -1,0 +1,297 @@
+﻿@model SV.Models.ViewModels.OptionsViewModel
+
+<input type="hidden" name="[@Model.AnswerIndex].QuestionId" value="@Model.Question.Id" />
+
+
+<div class="inlineLabels ctrlHolder">
+
+    @if (Convert.ToBoolean(TempData["IsParentQuestion"]) == true)
+    {
+        <label class="questionLbl">@Model.Question.Order .@Model.Question.QuestionText</label>
+        if (!string.IsNullOrWhiteSpace(Model.QuestionTextArabic))
+        {
+            <label class="questionLbl" dir="rtl">@Model.Question.Order .@Model.QuestionTextArabic</label>   
+        }
+    }
+    else
+    {
+        <label class="questionLbl">@Model.Question.QuestionText</label>
+        <label class="questionLbl" dir="rtl">@Model.QuestionTextArabic</label>
+    }
+
+    <br />
+    <br />
+
+    @if (Model.Question.Type == "Single Text")
+    {
+        <input type="text" class="textInput large" value="@Model.Answer.AnswerText" readonly>
+    }
+
+    @if (Model.Question.Type == "Radio")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            @foreach (var opt in Model.Options)
+            {
+                <li>
+                    <label>
+                        <input type="radio" checked="@(opt == Model.Answer.AnswerText ? true : false)" disabled> @opt 
+                    </label>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Question.Type == "Comment Box")
+    {
+        <textarea rows="7" disabled>@Model.Answer.AnswerText</textarea>
+    }
+
+    @if (Model.Question.Type == "Dropdown Menu")
+    {
+        var listOptions = new SelectList(Model.Options);
+
+        <select asp-items=listOptions asp-for="@Model.Answer.AnswerText"  disabled>
+        </select>
+    }
+
+    @if (Model.Question.Type == "Yes or No")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            <li>
+                <label>
+                    <input type="radio" checked="@(@Model.YesText == Model.Answer.AnswerText ? true : false)" disabled> @Model.YesText 
+                </label>
+            </li>
+            <li>
+                <label><input type="radio" checked="@(@Model.NoText == Model.Answer.AnswerText ? true : false)" disabled> @Model.NoText </label>
+            </li>
+        </ul>
+    }
+
+    @if (Model.Question.Type == "Multiple Choice")
+    {
+        var strs = Model.Answer.AnswerText.Split("\n").ToList();
+        
+        <ul class="@Model.Question.OptionsAlignment">
+            @foreach (var opt in Model.Options)
+            {
+                <li>
+                    <label>
+                        <input type="checkbox" checked="@(strs.FirstOrDefault(x => x.Trim() == opt) != null ? true : false)"  disabled> @opt 
+                    </label>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Question.Type == "Semantic Question")
+    {
+        var rows = Model.MatrixRowsOptions;
+        var cols = Model.MatrixHeaderOptions;
+        var strs = Model.Answer.AnswerText.Trim().Split("\n").ToList();
+
+        <table class="pure-table pure-table-horizontal ">
+            <tbody>
+                @for (int i = 0; i < rows.Count + 1; i++)
+                {
+                    <tr>
+                        @if (i == 0)
+                        {
+                            <th></th>
+                        }
+                        else
+                        {
+                            <th align="center">@rows[i - 1]</th>
+
+                        }
+
+                        @for (int j = 0; j < cols.Count; j++)
+                        {
+                            if (i == 0)
+                            {
+                                <th align="center">@cols[j]</th>
+                            }
+                            else
+                            {
+                                <td align="center">
+                                    <input type="radio" checked='@(strs.FirstOrDefault(x => x.Trim() == (rows[i - 1].Trim() + "," + cols[j]).Trim()) != null ? true : false)' disabled />
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.Question.Type == "Matrix Single")
+    {
+        var rows = Model.MatrixRowsOptions;
+        var cols = Model.MatrixHeaderOptions;
+
+        <table class="pure-table pure-table-horizontal ">
+            <tbody>
+                @for (int i = 0; i < rows.Count + 1; i++)
+                {
+                    <tr>
+                        @if (i == 0)
+                        {
+                            <th></th>
+                        }
+                        else
+                        {
+                            <th align="center">@rows[i - 1]</th>
+
+                        }
+
+                        @for (int j = 0; j < cols.Count; j++)
+                        {
+                            if (i == 0)
+                            {
+                                <th align="center">@cols[j]</th>
+                            }
+                            else
+                            {
+                                <td align="center">
+                                    <input type="radio" checked='@(Model.Answer.AnswerText == (rows[i - 1].Trim() + "," + cols[j].Trim()) ? true : false)' disabled/>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.Question.Type == "Matrix Multi Select")
+    {
+        var rows = Model.MatrixRowsOptions;
+        var cols = Model.MatrixHeaderOptions;
+        var strs = Model.Answer.AnswerText.Split("\n").ToList();
+
+        <table class="pure-table pure-table-horizontal">
+            <tbody>
+                @for (int i = 0; i < rows.Count + 1; i++)
+                {
+                    <tr>
+                        @if (i == 0)
+                        {
+                            <th></th>
+                        }
+                        else
+                        {
+                            <th align="center">@rows[i - 1]</th>
+
+                        }
+
+                        @for (int j = 0; j < cols.Count; j++)
+                        {
+                            if (i == 0)
+                            {
+                                <th align="center">@cols[j]</th>
+                            }
+                            else
+                            {
+                                <td align="center">
+                                    <input type="checkbox" checked='@(strs.FirstOrDefault(x => x.Trim() == (rows[i - 1].Trim() + "," + cols[j].Trim())) != null ? true : false)' disabled/>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.Question.Type == "Rating")
+    {
+        <div>
+
+            <ul id="ratingUL">
+                <a>
+                    <li>
+                        <div id="terrible" class="bm-terrible @(Model.Answer.AnswerText == "1" ? "rating-selected" : "")"></div>
+                        <h4>Terrible</h4>
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <div id="bad" class="bm-bad  @(Model.Answer.AnswerText == "2" ? "rating-selected" : "")"></div>
+                        <h4>Bad</h4>
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <div id="okay" class="bm-okay @(Model.Answer.AnswerText == "3" ? "rating-selected" : "")"></div>
+                        <h4>Okay</h4>
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <div id="good" class="bm-good @(Model.Answer.AnswerText == "4" ? "rating-selected" : "")"></div>
+                        <h4>Good</h4>
+                    </li>
+                </a>
+                <a>
+                    <li>
+                        <div id="great" class="bm-great @(Model.Answer.AnswerText == "5" ? "rating-selected" : "")"></div>
+                        <h4>Great</h4>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+    }
+
+    @if (Model.Question.Type == "Net Promoter Score")
+    {
+        <table class="pure-table pure-table-horizontal">
+            <tr>
+                <td></td>
+                @for (var i = 0; i < 10; i++)
+                {
+                    <td align="center">@i</td>
+                }
+                <td></td>
+            </tr>
+            <tr>
+                <th>@Model.MinText</th>
+                @for (var i = 0; i < 10; i++)
+                {
+                    <td align="center">
+                        <input type="radio" checked='@(Model.Answer.AnswerText == i.ToString() ? true : false)' disabled>
+                    </td>
+                }
+                <th>@Model.MaxText</th>
+            </tr>
+        </table>
+    }
+
+    @if (Model.Question.Type == "Logic")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            @foreach (var opt in Model.Options)
+            {
+                <li>
+                    <label>
+                        <input type="radio" checked=@(Model.Answer.AnswerText == opt ? true : false) disabled> @opt
+                    </label>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Question.IsDocRequire == true)
+    {
+        <input type="file" name="[@Model.AnswerIndex].Doc" class="textInput large" required>
+    }
+</div>
+
+@if (Model.Question.Type == "Logic")
+{
+    <div class="logicalQuestion-@Model.Question.Id">
+
+    </div>
+}
+
+

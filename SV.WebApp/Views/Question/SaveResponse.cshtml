@@ -1,0 +1,28 @@
+﻿@model OptionsViewModel
+@{
+    ViewData["Title"] = "SaveResponse";
+
+    if (Model.Question.ParentQuestionId == null)
+    {
+        TempData["IsParentQuestion"] = true;
+    }
+}
+
+<div class="box">
+    <div class="header"><h4>Save Response</h4></div>
+    <div class="content">
+                            
+        <form asp-action="SaveResponse" class="uniForm" method="post"  >
+
+            <partial name="~/Views/Survey/_PreviewQuestion.cshtml" for="@Model" />
+         
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-success pull-right">Save Response</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+

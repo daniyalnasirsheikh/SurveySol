@@ -1,0 +1,94 @@
+﻿.table-dashboard {
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.dashboard-innerdiv {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #efefef;
+}
+
+
+.dashboard-firstInnerdiv {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #efefef;
+}
+
+#terrible:hover, #bad:hover, #okay:hover, #good:hover, #great:hover {
+    border: none;
+}
+
+#terrible, #bad, #okay, #good, #great {
+    margin-bottom: 15px;
+}
+
+.lblAlign {
+    margin: 2em 3em;
+}
+
+h4 {
+    color: #4383a5;
+}
+
+h5 {
+    color: #474343;
+    font-size: 14px;
+}
+
+.questionLbl {
+    width: auto !important;
+}
+
+.buttonHolder {
+    background: #efefef;
+    text-align: right;
+    margin: 1.5em 0 0 0;
+    padding: 1.5em;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+}
+
+.buttonHolder .primaryAction {
+    padding: 10px 22px;
+    line-height: 1;
+    background: #712e8d;
+    border: 1px solid #163362;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    box-shadow: 1px 1px 0 #fff;
+    -webkit-box-shadow: 1px 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 0 #fff;
+    text-shadow: -1px -1px 0 rgb(0 0 0 / 25%);
+}
+
+.emptyDiv {
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 1em;
+}
+
+.emptySpace {
+    height: 3em;
+}
+
+.extendFirstHeight {
+    height: 1680px;
+}
+
+.extendHeight {
+    height: 1933px;
+}

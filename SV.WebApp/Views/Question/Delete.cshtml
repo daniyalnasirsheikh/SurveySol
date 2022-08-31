@@ -1,0 +1,31 @@
+﻿@model Question
+@{
+    ViewData["Title"] = "Delete Question";
+}
+
+<div class="box">
+    <div class="header"><h4>Delete Question - @Model.QuestionText.Replace("EQ_AQ_SP", " ")</h4></div>
+    <div class="content">
+        <form asp-action="Delete" class="form-horizontal margin-reset" method="post">
+
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="SurveyId" />
+
+            <div class="rowelement">
+                <div class="span5">
+                    <p>By deleting this question you will also delete its answers.</p>
+                    <p>Are you sure you want to delete this question?</p>
+				</div>
+			</div>
+
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <a asp-controller="Survey" asp-action="Index" class="btn">Cancel</a>
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+

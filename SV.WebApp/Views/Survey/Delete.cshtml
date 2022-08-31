@@ -1,0 +1,32 @@
+﻿@model Survey
+@{
+    ViewData["Title"] = "Delete Survey";
+}
+
+<div class="box">
+    <div class="header"><h4>Delete Survey</h4></div>
+    <div class="content">
+        <form asp-action="Delete" class="form-horizontal margin-reset" method="post">
+
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="LogoPath" />
+            <input type="hidden" asp-for="BannerPath" />
+            <input type="hidden" asp-for="BackgroundImagePath" />
+
+            <div class="rowelement">
+                <div class="span5">
+                    <p>By deleting this survey you will also delete its statistics, answers and questions.</p>
+                    <p>Are you sure you want to delete this survey?</p>
+				</div>
+			</div>
+
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <a asp-controller="Survey" asp-action="Index" class="btn">Cancel</a>
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

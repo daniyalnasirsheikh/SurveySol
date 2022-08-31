@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Question].[AnswerId] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_Question_ToAnswer] (Foreign Key)
+     Alter
+       [dbo].[Question] (Table)
+
+** Supporting actions
+
+The column [dbo].[Question].[AnswerId] is being dropped, data loss could occur.
+

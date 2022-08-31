@@ -1,0 +1,147 @@
+﻿@model IEnumerable<SurveyResponseProfile>
+
+@{
+    ViewData["Title"] = "Dashboard";
+    int counter = 1;
+}
+
+<div id="main-content">
+
+    <!-- Quick Buttons -->
+    <div class="quick-buttons">
+        <div class="row-fluid">
+            <div class="span3">
+                <a asp-controller="Survey" asp-action="Create" class="btn btn-block">
+                    <i class="dashboard-icons plus_dashboard"></i>
+                    <span class="dasboard-icons-title">Create Survey</span>
+                </a>
+            </div>
+            <div class="span3">
+                <a asp-controller="Survey" asp-action="Index" class="btn btn-block">
+                    <i class="dashboard-icons archives_dashboard"></i>
+                    <span class="dasboard-icons-title">Manage Survey</span>
+                </a>
+            </div>
+
+            <div class="span3">
+                <a href="/LaunchSurvey/Index" class="btn btn-block">
+                    <i class="dashboard-icons sign_up_dashboard"></i>
+                    <span class="dasboard-icons-title">Launch Survey</span>
+                </a>
+            </div>
+
+            <div class="span3">
+                <a href="/SurveyStatistic/Index" class="btn btn-block">
+                    <i class="dashboard-icons current_work_dashboard"></i>
+                    <span class="dasboard-icons-title">Survey Statistics</span>
+                </a>
+            </div>
+
+
+
+            @*<div class="span3">
+            <a href="javascript:;" class="btn btn-block">
+                <i class="dashboard-icons settings_dashboard"></i>
+                <span class="dasboard-icons-title">Settings</span>
+            </a>
+        </div>*@
+        </div>
+    </div>
+
+
+<div class="box">
+    <div class="header"><h4>Survey Status</h4></div>
+    <div class="content">
+        <div style="text-align:center; margin:20px;">
+            <div class="row-fluid">
+
+                <div class="span3">
+                    <p>
+                        <strong>@ViewBag.TotalSurvey</strong>
+                        <span class="dasboard-icons-title">Total</span>
+                    </p>
+                </div>
+
+                <div class="span3">
+                    <p>
+                        <strong>@ViewBag.PublishSurvey</strong>
+                        <span class="dasboard-icons-title">Published</span>
+                    </p>
+                </div>
+
+                <div class="span3">
+                    <p>
+                        <strong>@ViewBag.UnPublishSurvey</strong>
+                        <span class="dasboard-icons-title">Not Published </span>
+                    </p>
+                </div>
+
+                <div class="span3">
+                    <p>
+                        <strong>@ViewBag.CloseSurvey</strong>
+                        <span class="dasboard-icons-title">Closed</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- // Quick Buttons -->
+    <!-- chart (box full column) -->
+    <div class="box">
+        <div class="header"><h4>Users Took Survey</h4></div>
+        <div class="content pad">
+            @if (Model.Count() > 0)
+            {
+                <table class="normal bt-dataTable" border="0" cellpadding="0" cellspacing="0" width="100%" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Name</th>
+                            <th>Response Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@(counter++)</td>
+                                <td>@item.FullName</td>
+                                <td>@item.ResponseOn.ToString("dd'/'MM'/'yyyy")</td>
+                                <td class="w80">
+                                    <ul class="table-actions">
+                                        <li><a title="View Response" href="/surveystatistic/preview/@item.Id"><i class="icon-eye-open"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="pad20">No Responses found</p>
+            }
+        </div>
+    </div>
+    <!-- // chart -->
+
+    <div class="clear"></div>
+
+</div>
+<!-- // MAIN CONTENT -->
+<!-- // MAIN -->
+<script>
+    var d1 = '';
+
+    var data1 = [
+        { label: "<?php echo date('Y'); ?>", data: d1, points: { symbol: "circle", fillColor: "#058DC7" }, color: '#058DC7' }
+    ];
+</script>
+
+
+<!-- MAIN CONTENT -->

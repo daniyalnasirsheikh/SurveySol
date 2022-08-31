@@ -1,0 +1,855 @@
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Production.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Staging.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\bundleconfig.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.exe
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.deps.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.dev.json
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csprojAssemblyReference.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfoInputs.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfo.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CoreCompileInputs.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.input.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.output.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorCoreGenerate.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Create.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Edit.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Index.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Create.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Delete.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Edit.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Index.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Order.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SetAnswer.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyLayout.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Detail.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Index.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Statistics.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Create.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Delete.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Share.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Delete.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CopyComplete
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.Manifest.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.xml
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.genruntimeconfig.cache
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\ShareSurvey.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.pdb
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyPreviewLayout.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SaveResponse.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Preview.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyCompleted.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyNotAvailable.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\_PreviewQuestion.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Pollster\Update.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Dashboard.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Preview.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Chart.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_PreviewQuestion.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Responses.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyExpired.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyResponse.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\DeletePreviousReponses.cshtml.g.cs
+D:\My Laptop data\Ahmer data\Projects\Survey App\Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\EditTemplate.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Production.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Staging.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\bundleconfig.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.exe
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.deps.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.dev.json
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Humanizer.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.AssemblyReference.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfoInputs.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfo.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.Manifest.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.xml
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\scopedcss\bundle\SV.WebApp.styles.css
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.input.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.output.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorCoreGenerate.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\DeletePreviousReponses.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\EditTemplate.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\ShareSurvey.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Pollster\Update.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Delete.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Order.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SaveResponse.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SetAnswer.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyLayout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyPreviewLayout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Dashboard.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Detail.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Preview.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Statistics.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Chart.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_PreviewQuestion.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Responses.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Delete.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Preview.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Share.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyCompleted.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyExpired.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyNotAvailable.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyResponse.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\_PreviewQuestion.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CopyComplete
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.dll
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.pdb
+C:\Users\Samar Haider\Desktop\New folder (2)\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.genruntimeconfig.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Production.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Staging.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\bundleconfig.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.exe
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.deps.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.dev.json
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Humanizer.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.AssemblyReference.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfoInputs.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfo.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.Manifest.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.input.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.output.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorCoreGenerate.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\DeletePreviousReponses.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\EditTemplate.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\ShareSurvey.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Pollster\Update.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Delete.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Order.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SaveResponse.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SetAnswer.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyLayout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyPreviewLayout.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Dashboard.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Detail.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Preview.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Statistics.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Chart.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_PreviewQuestion.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Responses.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Delete.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Preview.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Share.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyCompleted.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyExpired.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyNotAvailable.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyResponse.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\_PreviewQuestion.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CopyComplete
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.dll
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.pdb
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.genruntimeconfig.cache
+C:\Users\Samar Haider\Desktop\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\DefaultPage.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Development.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Production.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.Staging.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\bundleconfig.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\appsettings.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.exe
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.deps.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.runtimeconfig.dev.json
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Humanizer.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Business.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Models.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\bin\Release\netcoreapp3.1\SV.Data.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.AssemblyReference.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfoInputs.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.AssemblyInfo.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CoreCompileInputs.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorAssemblyInfo.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.Manifest.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\staticwebassets\SV.WebApp.StaticWebAssets.xml
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\scopedcss\bundle\SV.WebApp.styles.css
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.input.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.TagHelpers.output.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorCoreGenerate.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\DefaultPage.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Create.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\DeletePreviousReponses.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Edit.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\EditTemplate.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\Index.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\LaunchSurvey\ShareSurvey.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Pollster\Update.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Create.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Delete.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Edit.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Index.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\Order.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SaveResponse.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Question\SetAnswer.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyLayout.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SurveyPreviewLayout.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Dashboard.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Detail.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Index.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Preview.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\Statistics.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Chart.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_PreviewQuestion.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\SurveyStatistic\_Responses.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Create.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Delete.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Preview.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Share.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyCompleted.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyExpired.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyNotAvailable.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\SurveyResponse.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\_PreviewQuestion.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Delete.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cache
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.RazorTargetAssemblyInfo.cs
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.Views.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.csproj.CopyComplete
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.dll
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.pdb
+E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.genruntimeconfig.cache

@@ -1,0 +1,164 @@
+﻿@model Survey
+@{
+    ViewData["Title"] = "Add new survey";
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+}
+
+<div class="box">
+    <div class="header"><h4>Create Survey</h4></div>
+    <div class="content">
+
+        <form asp-action="Create" class="form-horizontal margin-reset" method="post" enctype="multipart/form-data">
+
+            <div class="rowelement">
+                <div class="span3">
+                    Survey Name:
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for="Name" class="input-block-level" />
+                    <p class="help-block">Hint: Name the survey you want to create</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    Survey Department:
+                </div>
+                <div class="span5">
+                    @foreach (var d in ViewBag.Departments)
+                    {
+                        <span class="chk-box-spn">
+                            <input name="Department" style="margin:0px 4px 0 0;" type="checkbox" id="@d.ID" value="@d.ID">@d.Department
+                        </span>
+
+                    }
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    Survey Type:
+                </div>
+                <div class="span5">
+                    <label class="radio inline">
+                        <input type="radio" asp-for=SurveyType value="OPEN" checked="checked"> Open Survey
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" asp-for=SurveyType value="CLOSED"> Closed Survey
+                    </label>
+                    <p class="help-block">Hint: Open Survey has the same URL for all customers. Closed Survey has unique URLs</p>
+                    @*<p class="hint"></p>*@
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="separator"></div>
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    Survey Language:
+                </div>
+                <div class="span5">
+                    <label class="radio inline">
+                        <input type="radio" asp-for=Language value="English" checked="checked"> English
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" asp-for=Language value="Arabic"> Arabic
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" asp-for=Language value="Bilingual"> Bilingual
+                    </label>
+                    <p class="hint"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Upload Logo:
+                </div>
+                <div class="span5">
+                    <input type="file" name="logo" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Upload Banner:
+                </div>
+                <div class="span5">
+                    <input type="file" name="banner" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Upload Background Image:
+                </div>
+                <div class="span5">
+                    <input type="file" name="background" class="input-block-level" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Maximum Responses:
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for="MaxResponse" class="input-block-level" value="0" />
+                    <p class="help-block">Hint: 0 for unlimited responses</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement">
+                <div class="span3">
+                    Question Per Page:
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for="QuestionPerPage" class="input-block-level" value="5" />
+                    <p class="help-block"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-success pull-right">Create Survey</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script>
+
+    var checkbox_required = $('input[type="checkbox"]');
+
+    checkbox_required.prop('required', true);
+
+    checkbox_required.on('click', function () {
+        if (checkbox_required.is(':checked')) {
+            checkbox_required.prop('required', false);
+        } else {
+            checkbox_required.prop('required', true);
+        }
+    });
+</script>

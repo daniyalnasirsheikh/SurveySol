@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Survey>
+@{
+    ViewData["Title"] = "Manage Survey";
+}
+
+<div class="box">
+    <div class="header">
+        <h4>
+            Surveys
+            <a class="btn btn-small pull-right poscenter" asp-action="Create">Add Survey</a>
+		</h4>
+    </div> 
+    <div class="content">
+   
+        @*If survey found in database*@
+        @if(Model.Count() > 0)
+        {
+                <table class="normal bt-dataTable" border="0"  cellpadding="0" cellspacing="0" width="100%" id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Survey</th>
+                        <th>Language</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Language</td>
+                            <td>@(item.IsLaunched == true? "Launched": "Not Launch")</td>
+                            <td>
+                                <ul class="table-actions">
+                                    <li><a asp-controller="Question" asp-action="Index" asp-route-surveyId="@item.Id" title="Show Questions" ><i class="icon-file"></i></a></li>
+                                    <li><a asp-action="Edit" asp-route-id="@item.Id" title="Edit Survey"><i class="icon-edit"></i></a></li>
+                                    <li><a asp-action="Share" asp-route-id="@item.Id" title="Share Survey"><i class="icon-share"></i></a></li>
+                                    <li><a asp-action="Delete" asp-route-id="@item.Id" title="Delete Survey"><i class="icon-trash"></i></a></li>
+                                    <li><a asp-action="Preview" title="Preview Survey" asp-route-id="@item.Id" target="_blank"><i class="icon-globe"></i></a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table> 
+        }
+
+        @*If no survey found in database*@
+        @if (Model.Count() < 1)
+        {
+            <p class="pad20">No Surveys found</p>
+            <p class="pad20">There are no surveys to manage. First you need to <a asp-action="Create">create a survey</a></p>   
+        }
+    </div>
+</div>
+
+

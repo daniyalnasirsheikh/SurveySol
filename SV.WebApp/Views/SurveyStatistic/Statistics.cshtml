@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Answer>
+@{
+    ViewData["Title"] = "Survey Name";
+}
+ 
+<div id="main-content">
+                        
+    <div class="notice_messages"></div>
+    @*if responses found in database*@
+    @if(Model.Count() > 0)
+    {
+        <table class="normal bt-dataTable" border="0"  cellpadding="0" cellspacing="0" width="100%" id="dataTable">
+            <thead>
+                <tr>
+                    <th>Count</th>
+                    <th>Answer</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="w60">@Model.Where(r => r.AnswerText == item.AnswerText).Count()</td>
+                        <td>@item.AnswerText</td>
+                        <td class="w80">@(new Random().Next(100))%</td>
+                    </tr>   
+                }	
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No answers found for this question.</p>    
+    }
+                        
+    <div class="mb20"></div>
+                                    
+    <div class="row-fluid grid-set">
+        <div class="span6">
+            <div class="box">
+                <div class="header"><h4>Answer Fact</h4></div>
+                <div class="content pad" id="answers-table">
+                    @if(Model.Count() > 0)
+                    {
+                        <ul class="unordered">
+                            <li>@Model.Count() answered this question</li>
+                            <li>Most of the users are from: Location</li>
+                            <li>The answer rate to this question is: @(new Random().Next(100))%</li>
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>No data found to render facts</p>   
+                    }
+                </div>  
+            </div>  
+        </div>
+
+                        
+        <div class="span6">
+            <div class="box">
+                <div class="header"><h4>Pie Chart</h4></div>
+                <div class="content pad">
+                    <div id="flot-pie" class="flot-pie"></div>
+
+                    @*<p>This question type does not support pie charts.</p>
+                    <p>No data found to render pie chart</p>*@
+                </div> 
+            </div>
+        </div>
+
+    </div>
+    
+    @if(true)
+    {
+        <button class="btn input-block-level mb20">Export to CSV</button>   
+    }                        
+</div>
+

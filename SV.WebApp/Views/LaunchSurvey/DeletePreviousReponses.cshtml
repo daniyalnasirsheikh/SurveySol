@@ -1,0 +1,29 @@
+﻿@model Survey
+@{
+    ViewData["Title"] = "Delete Survey Responses";
+}
+
+<div class="box">
+    <div class="header"><h4>Delete Survey Responses</h4></div>
+    <div class="content">
+        <form asp-action="DeletePreviousReponses" class="form-horizontal margin-reset" method="post">
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="rowelement">
+                <div class="span5">
+                    <p>You are going to remove every response to this survey (@Model.Name).</p>
+                    <p>Are you sure you want to delete responses?</p>
+				</div>
+			</div>
+
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <a asp-controller="Survey" asp-action="Index" class="btn">Cancel</a>
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

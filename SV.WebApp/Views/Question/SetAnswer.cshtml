@@ -1,0 +1,209 @@
+﻿@model OptionsViewModel
+@{
+    ViewData["Title"] = "Set Answer";
+
+    var optionsAlignment = new List<SelectListItem> 
+    { 
+        new SelectListItem { Text = "Vertical", Value = "vertical" },
+        new SelectListItem { Text = "Horizontal", Value = "horizontal" }
+    };
+
+    var language = (ViewBag.Language as string);
+}
+
+
+@section scripts
+{ 
+    <script>
+        var selectedQuestionAnswer = '@Model.Question.LogicalQuestionText';
+    </script>
+    <script src="~/sv/js/SetAnswer.js"></script>
+    
+    @if (language == "Arabic")
+    {
+        <script>
+            $(document).ready(function() {
+                var type = '@Model.Question.Type';
+               
+                if (type === "Radio" || type === "Dropdown Menu" || type === "Multiple Choice" || "Logic")
+                {
+                    $("#answers").attr('dir', 'rtl');   
+                }
+
+                if (type === "Yes or No")
+                {
+                    $("#YesText").attr('dir', 'rtl');   
+                    $("#NoText").attr('dir', 'rtl');   
+                }
+
+                if (type === "Net Promoter Score")
+                {
+                    $("#YesText").attr('dir', 'rtl');   
+                    $("#NoText").attr('dir', 'rtl');   
+                }
+
+                if (type === "Matrix Single" || type === "Matrix Multi Select" || type === "Semantic Question")
+                {
+                    $("#MatrixHeader").attr('dir', 'rtl');   
+                    $("#MatrixRows").attr('dir', 'rtl');   
+                }
+            })
+        </script>   
+    }    
+}
+
+
+<div class="box">
+    <div class="header"><h4>@Model.Question.QuestionText.Replace("EQ_AQ_SP", " ") - Set Options (@Model.Question.Type) </h4></div>
+    <div class="content">
+        <br />
+
+        <form asp-action="SetAnswer" method="post" class="form-horizontal margin-reset">
+
+            <input type="hidden" asp-for=Question.Id />
+
+            @if (Model.Question.Type == "Radio" || Model.Question.Type == "Dropdown Menu" || Model.Question.Type == "Multiple Choice" || Model.Question.Type == "Logic")
+            {
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        Set Options:
+                    </div>
+                    <div class="span5">
+                        <textarea asp-for=Question.OptionsText class="input-block-level" rows=7 id="answers"></textarea>
+                        <p class="help-block">Hint: Seperate options by enter.</p>
+                    </div>
+                </div>
+
+
+                if (Model.Question.Type != "Semantic Question")
+                {
+                    <div class="rowelement">
+                        <div class="span3">
+                            Position:
+                        </div>
+                        <div class="span5">
+                            <select asp-for=Question.OptionsAlignment asp-items=optionsAlignment>
+                            </select>
+                            <p class="help-block">Hint: These configurations depends on current theme.</p>
+                        </div>
+                    </div>
+                }
+
+                if (Model.Question.Type == "Logic")
+                {
+                    <h4 class="span3">Select answer for logical question:</h4>
+                    <div class="rowelement">
+                        <div class="span3">
+                            Select option to add question:
+                        </div>
+                        <div class="span5">
+                            <select id="logicQuestionSelectionId" asp-for=Question.LogicalQuestionText>
+                                <option value="">Select</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                }
+            }
+
+
+            @if (Model.Question.Type == "Yes or No")
+            {
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        Yes Text:
+                    </div>
+                    <div class="span5">
+                        <input type="text" asp-for=YesText />
+                        <p class="help-block">Hint: Text for Yes option. Don't Include 'Yes' in answer</p>
+                    </div>
+                </div>
+
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        No Text:
+                    </div>
+                    <div class="span5">
+                        <input type="text" asp-for=NoText />
+                        <p class="help-block">Hint: Text for No option. Don't Include 'No' in answer</p>
+                    </div>
+                </div>
+
+                <div class="rowelement">
+                    <div class="span3">
+                        Position:
+                    </div>
+                    <div class="span5">
+                        <select asp-for=Question.OptionsAlignment asp-items=optionsAlignment>
+                        </select>
+                        <p class="help-block">Hint: These configurations depends on current theme.</p>
+                    </div>
+                </div>
+            }
+
+            @if (Model.Question.Type == "Net Promoter Score")
+            {
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        Min Text:
+                    </div>
+                    <div class="span5">
+                        <input type="text" asp-for=MinText />
+                        <p class="help-block">Hint: Text for Min option.</p>
+                    </div>
+                </div>
+
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        Max Text:
+                    </div>
+                    <div class="span5">
+                        <input type="text" asp-for=MaxText />
+                        <p class="help-block">Hint: Text for Max option.</p>
+                    </div>
+                </div>
+            }
+
+            @if (Model.Question.Type == "Matrix Single" || Model.Question.Type == "Matrix Multi Select" || Model.Question.Type == "Semantic Question")
+            {
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        Set Matrix Header:
+                    </div>
+                    <div class="span5">
+                        <textarea type="text" asp-for=MatrixHeader class="input-block-level" rows=7></textarea>
+                        <p class="help-block">Hint: These are options for the columns. Hit enter for separation.</p>
+                    </div>
+                </div>
+
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        Set Matrix Rows:
+                    </div>
+                    <div class="span5">
+                        <textarea type="text" asp-for=MatrixRows class="input-block-level" rows=7></textarea>
+                        <p class="help-block">Hint: These are options for the rows. Hit enter for separation.</p>
+                    </div>
+                </div>
+            }
+
+
+            @if (Model.Question.Type != "Single Text" && Model.Question.Type != "Comment Box" && Model.Question.Type != "Rating")
+            {
+                <div class="form-actions margin-reset">
+                    <div class="pull-right">
+                        <button type="submit" class="btn btn-success pull-right">Save Answer</button>
+                    </div>
+                </div>
+            }
+
+
+
+        </form>
+	</div>
+</div>
+
+
+
+
+

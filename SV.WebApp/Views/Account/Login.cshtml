@@ -1,0 +1,52 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/views/shared/_AccountLayout.cshtml";
+}
+
+                
+<div id="main-content" class="login-content">
+                    
+    <div id="login_logo"></div>
+                                                            
+    <form class="form-signin" id="validation" asp-controller="Account" asp-action="Login" method="post">
+
+        <p>Username:</p>
+        <div class="input-prepend">
+            <span class="add-on"><span class="icon-user"></span></span>
+			<input type="text" class="span11 validate[required]" placeholder="Username" asp-for="Username">
+        </div>
+                        
+        <p>Password:</p>
+        <div class="input-prepend">
+            <span class="add-on"><span class="icon-lock"></span></span>
+            <input type="password" class="span11 validate[required]" placeholder="Password" asp-for="Password">
+        </div>
+                        
+        @if(!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+        {
+            <div class="alert login-alert">
+				@Model.ErrorMessage
+			</div>       
+        }
+                        
+        <label class="checkbox inline pull-left">
+            <input type="checkbox" asp-for="RememberMe"> Remember me
+        </label>
+                
+        <button class="btn btn-info pull-right" type="submit">Log in</button>
+                        
+        <div class="clear"></div>
+                                                                    
+        <a asp-controller="Home" asp-action="Index" class="mt10 pull-left">&larr; Back to site</a>
+                        
+        <a asp-action="ForgetPassword" class="pull-right mt10">Lost your password?</a>
+                        
+        <div class="clear"></div>
+                        
+    </form>
+                                                          
+</div>
+
+

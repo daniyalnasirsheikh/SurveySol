@@ -1,0 +1,39 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Answer] (Table)
+       [dbo].[AspNetRoleClaims] (Table)
+       [dbo].[AspNetRoles] (Table)
+       [dbo].[AspNetUserClaims] (Table)
+       [dbo].[AspNetUserLogins] (Table)
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUsers] (Table)
+       [dbo].[AspNetUserTokens] (Table)
+       [dbo].[Question] (Table)
+       [dbo].[Survey] (Table)
+       [dbo].[SurveyResponseProfile] (Table)
+       [dbo].[UserShareSurvey] (Table)
+       [dbo].[FK_SurveyResponseProfileAnswer] (Foreign Key)
+       [dbo].[FK_QuestionAnswer] (Foreign Key)
+       [dbo].[FK_AspNetRoleClaims_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserClaims_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserLogins_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetRoles_RoleId] (Foreign Key)
+       [dbo].[FK_AspNetUserRoles_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_AspNetUserTokens_AspNetUsers_UserId] (Foreign Key)
+       [dbo].[FK_SurveyQuestion] (Foreign Key)
+       [dbo].[FK_Survey_AspNetUsers] (Foreign Key)
+       [dbo].[FK_AspNetUserUserShareSurvey] (Foreign Key)
+       [dbo].[FK_SurveyUserShareSurvey] (Foreign Key)
+       [dbo].[Proc_GetAllStudents] (Procedure)
+
+** Supporting actions

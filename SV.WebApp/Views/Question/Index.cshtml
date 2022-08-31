@@ -1,0 +1,153 @@
+﻿@model IEnumerable<Question>
+@{
+    ViewData["Title"] = "Questions";
+    int surveyId = (int) ViewBag.surveyId;
+}
+
+<div class="box">
+    <div class="header">
+        <h4>
+            Questions
+            <a class="btn btn-small pull-right poscenter" asp-action="Create" asp-route-surveyId="@surveyId">Add Question</a>
+            @if (Model.Count() > 1)
+            {
+                <a class="btn btn-small pull-right poscenter" asp-action="Order" asp-route-id="@surveyId">Order Questions</a>   
+            }
+        </h4>
+    </div> 
+    <div class="content">
+        @if(Model.Count() > 0)
+        {
+            <table class="normal bt-dataTable" border="0"  cellpadding="0" cellspacing="0" width="100%" id="dataTable1">
+                <thead>
+                    <tr>
+                        <th>Question Text</th>
+                        <th>Order</th>
+                        <th>Question Type</th>
+					    <th>Question Required</th>
+					    <th>Doc Required</th>
+					    <th>Answer Set</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var question in Model.Where(m => m.ParentQuestionId == null || m.ParentQuestionId == 0))
+                    {
+                        <tr>
+                            <td>@question.QuestionText.Replace("EQ_AQ_SP", " ")</td>
+                            <td class="w60" data-sort="1">@question.Order</td>
+                            <td class="w130">@question.Type </td>
+                            <td class="w60">
+                                @(question.IsRequire ? "Yes" : "No")
+                            </td>
+                            <td class="w60">
+                                @(question.IsDocRequire ? "Yes" : "No")
+                            </td>
+                            <td class="w60">
+                                @if (question.Type == "Single Text" || question.Type == "Comment Box" || question.Type == "Rating")
+                                {
+                                    <label class="label label-success">yes</label>
+                                }
+                                else
+                                {
+                                    if (string.IsNullOrWhiteSpace(question.OptionsText))
+                                    {
+                                        <label class="label label-danger">not set</label>
+                                    }
+                                    else
+                                    {
+                                        <label class="label label-success">yes</label>
+                                    }
+                                }
+                            </td>
+                            <td>
+                                <ul class="table-actions">
+                                    <li><a asp-action="SetAnswer" asp-route-id=@question.Id title="Set Answer"><i class="icon-file"></i></a></li>
+                                    <li><a asp-action="Edit" asp-route-id=@question.Id title="Edit Question"><i class="icon-edit"></i></a></li>
+                                    <li><a asp-action="Duplicate" asp-route-id=@question.Id title="Duplicate Question"><i class="icon-file"></i></a></li>
+                                    <li><a asp-action="Delete" asp-route-id=@question.Id title="Remove Question"><i class="icon-trash"></i></a></li>
+
+                                    @if (question.Type == "Logic" && !string.IsNullOrEmpty(question.LogicalQuestionText))
+                                    {
+                                        <li><a asp-action="Create" asp-route-surveyId="@surveyId" asp-route-questionId=@question.Id title="Add Logical Question"><i class="icon-plus-sign"></i></a></li>
+                                    }
+
+
+                                </ul>
+                            </td>
+                        </tr>
+
+
+
+                        if (Model.Where(m => m.ParentQuestionId == question.Id).Count() > 0)
+                        {
+
+                            foreach (var childQuestion in Model.Where(m => m.ParentQuestionId == question.Id))
+                            {
+                                <tr class="childRow">
+                                    <td class="childCol">  @childQuestion.QuestionText (Logical Question)</td>
+                                    <td class="w60 childCol"></td>
+                                    <td class="w130 childCol">@childQuestion.Type </td>
+                                    <td class="w60 childCol">
+                                        @(childQuestion.IsRequire ? "Yes" : "No")
+                                    </td>
+                                    <td class="w60">
+                                        @(question.IsDocRequire ? "Yes" : "No")
+                                    </td>
+                                    <td class="w60 childCol">
+                                        @if (childQuestion.Type == "Single Text" || childQuestion.Type == "Comment Box" || childQuestion.Type == "Rating")
+                                        {
+                                            <label class="label label-success">yes</label>
+                                        }
+                                        else
+                                        {
+                                            if (string.IsNullOrWhiteSpace(childQuestion.OptionsText))
+                                            {
+                                                <label class="label label-danger">not set</label>
+                                            }
+                                            else
+                                            {
+                                                <label class="label label-success">yes</label>
+                                            }
+                                        }
+                                    </td>
+                                    <td class="childCol">
+                                        <ul class="table-actions">
+                                            <li><a asp-action="SetAnswer" asp-route-id=@childQuestion.Id title="Set Answer"><i class="icon-file"></i></a></li>
+                                            <li><a asp-action="Edit" asp-route-id=@childQuestion.Id title="Edit Question"><i class="icon-edit"></i></a></li>
+                                            <li><a asp-action="Delete" asp-route-id=@childQuestion.Id title="Remove Question"><i class="icon-trash"></i></a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            }
+                           
+                        }
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p class="pad20">No Questions found</p>
+            <p class="pad20">There are no questions to this survey. First you need to <a asp-action="Create" asp-route-surveyId="@surveyId">add a question</a></p>   
+        }
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+
+        $(function () {
+            $('th').each(function () {
+                if ($(this)[0].innerText == 'Order') {
+                    $(this)[0].click();
+                }
+            });
+        });
+
+    </script>
+}
+
+                        
+

@@ -1,0 +1,163 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "User Management";
+
+    var roles = new List<SelectListItem>();
+
+    if (ViewBag.IsUserManager == true)
+    {
+        roles = new List<SelectListItem>()
+        {
+            new SelectListItem { Text = "User Manager", Value = "User Manager" },
+            new SelectListItem { Text = "Pollster", Value = "Pollster" },
+            new SelectListItem { Text = "Reviewer", Value = "Reviewer" }
+        };
+    }
+    else
+    {
+        roles = new List<SelectListItem>()
+{
+            new SelectListItem { Text = "User Manager", Value = "User Manager" },
+            new SelectListItem { Text = "Pollster", Value = "Pollster" },
+            new SelectListItem { Text = "Reviewer", Value = "Reviewer" }
+        };
+    }
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+}
+
+<script>
+    
+
+    $(document).ready(function () {
+        $('.chkboxDepartments').hide();
+        $('#ddlRole').change(
+            function () {
+                if (this.value == "User Manager" || this.value == "Pollster") {
+                    $('.chkboxDepartments').hide();
+                    $('.chkboxDepartments').prop('required', false);
+                }
+                else {
+                    $('.chkboxDepartments').show();
+                    $('.chkboxDepartments').prop('required', true);
+
+                    var checkbox_required = $('input[type="checkbox"]');
+
+                    checkbox_required.prop('required', true);
+
+                    checkbox_required.on('click', function () {
+                        if (checkbox_required.is(':checked')) {
+                            checkbox_required.prop('required', false);
+                        } else {
+                            checkbox_required.prop('required', true);
+                        }
+                    });
+                }
+            }
+        )
+    });
+</script>
+
+<div class="box">
+    <div class="header"><h4>Add New User</h4></div>
+    <div class="content">
+
+        @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+        {
+            <div class="rowelement span8">
+                <div class="notice_messages"><div class="alert alert-danger">@Model.ErrorMessage</div></div>
+            </div>
+        }
+
+    <form class="form-horizontal margin-reset" asp-action="Create" method="post">
+
+        <div class="rowelement">
+            <div class="span3">
+                <p>Username:</p>
+            </div>
+            <div class="span5">
+                <input type="text" asp-for="Username" class="input-block-level" autocomplete="off" required />
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="rowelement">
+            <div class="span3">
+                <p>Email:</p>
+            </div>
+            <div class="span5">
+                <input type="text" asp-for="Email" class="input-block-level" required />
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="rowelement">
+            <div class="span3">
+                <p>Role:</p>
+            </div>
+            <div class="span5">
+                <select id="ddlRole" name="role" asp-for="Role" asp-items=roles class="input-block-level" required>
+                </select>
+            </div>
+            <div class="clear"></div><br />
+        </div>
+
+        <div class="rowelement chkboxDepartments">
+            <div class="span3">
+                <p>Department:</p>
+            </div>
+            <div class="span5">
+                @{
+                    try
+                    {
+                        @foreach (var d in ViewBag.Departments)
+                        {
+                        <span class="chk-box-spn">
+                            <input class="chkboxDepartments" name="Departments" style="margin:0px 4px 0 0;" type="checkbox" id="@d.ID" value="@d.ID">@d.Department
+                        </span>
+
+                        }
+                    }
+                    catch(Exception ex)
+                    {
+
+                    }
+                }
+
+            </div>
+            <div class="clear"></div><br />
+        </div>
+
+        <div class="rowelement">
+            <div class="span3">
+                <p>Password:</p>
+            </div>
+            <div class="span5">
+                <input type="password" asp-for="Password" class="input-block-level" autocomplete="off" required />
+                <p class="help-block inpass">
+                    Hint: Minium 6 characters, one non alphanumeric character, at least one digit ('0'-'9'),
+                    at least one uppercase ('A'-'Z') and at least one lowercase ('a'-'z').
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="rowelement">
+            <div class="span3">
+                <p>Confrim Password:</p>
+            </div>
+            <div class="span5">
+                <input type="password" asp-for="ConfirmPassword" class="input-block-level" required />
+                <p class="help-block inpass">Hint: Password & Confirm Password must match.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="form-actions margin-reset">
+            <div class="pull-right">
+                <button id="AddUserBtn" type="submit" class="btn btn-success pull-right">Add User</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</div>

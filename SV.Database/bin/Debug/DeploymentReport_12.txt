@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[SurveyResponseProfile]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column DocPath in table [dbo].[Answer] is currently  NVARCHAR (256) NULL but is being changed to  VARCHAR
+         (256) NULL. Data loss could occur.
+       The column [dbo].[SurveyResponseProfile].[SurveyId] on table [dbo].[SurveyResponseProfile] must be added, but the column
+         has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To
+         avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+
+** User actions
+     Drop
+       [dbo].[FK_SurveyResponseProfileAnswer] (Foreign Key)
+       [dbo].[FK_QuestionAnswer] (Foreign Key)
+       [dbo].[FK_SurveyQuestion] (Foreign Key)
+       [dbo].[FK_AspNetUserUserShareSurvey] (Foreign Key)
+       [dbo].[FK_SurveyUserShareSurvey] (Foreign Key)
+       [dbo].[UC_UserSurvey] (Unique Constraint)
+     Alter
+       [dbo].[Answer] (Table)
+     Table rebuild
+       [dbo].[SurveyResponseProfile] (Table)
+     Create
+       [dbo].[UC_User_Survey] (Unique Constraint)
+       [dbo].[FK_Question_Answer] (Foreign Key)
+       [dbo].[FK_SurveyResponseProfile_Answer] (Foreign Key)
+       [dbo].[FK_Survey_Question] (Foreign Key)
+       [dbo].[FK_AspNetUserUserShare_Survey] (Foreign Key)
+       [dbo].[FK_SurveyUserShare_Survey] (Foreign Key)
+
+** Supporting actions
+
+The type for column DocPath in table [dbo].[Answer] is currently  NVARCHAR (256) NULL but is being changed to  VARCHAR (256) NULL. Data loss could occur.
+The column [dbo].[SurveyResponseProfile].[SurveyId] on table [dbo].[SurveyResponseProfile] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

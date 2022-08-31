@@ -1,0 +1,85 @@
+﻿@model Survey
+@{
+    ViewData["Title"] = "Statistics Detail";
+}
+    
+<div id="main-content">
+                        
+    <div class="notice_messages"></div>
+						
+    <div class="quick-buttons">
+        <div class="row-fluid">
+            <div class="span3">                    
+                    <div>
+                    <strong>2</strong>
+                    <span class="dasboard-icons-title">Total Surveys</span>
+                    </div>
+            </div>
+            <div class="span3">                    
+                    <div>
+                    <strong>3</strong>
+                    <span class="dasboard-icons-title">Questions</span>
+                    </div> 
+            </div> 
+            <div class="span3">                    
+                    <div>
+                    <strong>0</strong>
+                    <span class="dasboard-icons-title">Answers</span>
+                    </div>
+            </div>                
+            <div class="span3">                    
+                    <div>
+                    <strong>0</strong>
+                    <span class="dasboard-icons-title">Took Survey</span>
+                    </div> 
+            </div> 
+        </div>
+    </div>
+                        
+    <div class="box">
+        <div class="header"><h4> Choose Questions</div> 
+        <div class="content">
+        @if(Model.Questions.Count > 0)
+        {
+            <table class="normal bt-dataTable" border="0"  cellpadding="0" cellspacing="0" width="100%" id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Fill</th>
+                        <th>Question</th>
+                        <th>Question Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var question in Model.Questions) 
+                    { 
+                        <tr>
+                            <td class="w30">
+                                @*check if result exist*@
+					            @if(false)
+					            {
+						            <i class="icon-ok"></i>
+					            } 
+                                else 
+                                {
+						            <i class="icon-remove"></i>
+					            }
+					        </td>
+                            <td><a asp-action="Statistics" asp-route-id="@question.Id" title="View Answers">@question.QuestionText</a></td>
+                            <td class="w130">@question.Type</td>
+                        </tr>	
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p class="pad20">No Questions found</p>
+            <p class="pad20">There are no questions to this survey.</p>   
+        }
+        </div>
+    </div>
+                                                
+</div>
+
+
+

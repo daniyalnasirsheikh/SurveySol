@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="fc4181fc-0597-4787-b9bb-0d1ce57886bd" ChangeDateTime="08/03/2021 18:55:35">
+    <Property Name="ElementName" Value="[dbo].[Student].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a530b019-1f1b-480c-9898-afcd451bfe01" ChangeDateTime="09/16/2021 17:07:14">
+    <Property Name="ElementName" Value="[dbo].[SurveyResponseProfile].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SurveyResponseProfile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Full Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b54c477a-fff9-4356-80a6-dbcbae00b347" ChangeDateTime="09/21/2021 09:48:29">
+    <Property Name="ElementName" Value="[dbo].[Survey].[StardDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Survey]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StartDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f6368e96-a706-41b2-ba5c-629128750286" ChangeDateTime="11/14/2021 09:37:30">
+    <Property Name="ElementName" Value="[dbo].[Email].[DisplayName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Email]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SenderName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9e6615fe-e4f6-4221-a9dd-674edeb9d7e2" ChangeDateTime="11/14/2021 09:40:09">
+    <Property Name="ElementName" Value="[dbo].[Email].[Username]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Email]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Password" />
+  </Operation>
+</Operations>

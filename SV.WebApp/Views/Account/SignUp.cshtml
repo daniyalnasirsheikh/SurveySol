@@ -1,0 +1,65 @@
+﻿@model UserViewModel
+
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "~/views/shared/_AccountLayout.cshtml";
+}
+
+                
+<div id="main-content" class="login-content">
+                    
+    <div id="login_logo"></div>
+
+    <h2>Register new account</h2>
+                                                            
+    <form class="form-signin" id="validation" asp-controller="Account" asp-action="SignUp" method="post">
+
+
+        <p>Username:</p>
+        <div class="input-prepend">
+            <span class="add-on"><span class="icon-user"></span></span>
+            <input type="text" class="span11 validate[required]" placeholder="Username" asp-for="Username">
+        </div>
+
+        <p>Email:</p>
+        <div class="input-prepend">
+            <span class="add-on"><span class="ui-icon-mail-open"></span></span>
+            <input type="text" class="span11 validate[required]" placeholder="Email" asp-for="Email">
+        </div>
+
+        <p>Password:</p>
+        <div class="input-prepend">
+            <span class="add-on"><span class="icon-lock"></span></span>
+            <input type="password" class="span11 validate[required]" placeholder="Password" asp-for="Password">
+        </div>
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+        {
+            <div class="alert login-alert">
+                @Model.ErrorMessage
+            </div>
+        }
+
+        @if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+        {
+            <div class="alert alert-primary">
+                @Model.SuccessMessage
+            </div>
+        }
+
+
+        <button class="btn btn-info pull-right" type="submit">Sign Up</button>
+
+        <div class="clear"></div>
+
+        <a asp-controller="Home" asp-action="Index" class="mt10 pull-left">&larr; Back to site</a>
+
+        <div class="clear"></div>
+
+    </form>
+                                                          
+</div>
+
+

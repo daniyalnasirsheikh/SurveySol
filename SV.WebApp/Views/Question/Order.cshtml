@@ -1,0 +1,54 @@
+﻿@model IList<Question>
+@{
+    ViewData["Title"] = "Order Question";
+}
+
+<div class="box">
+    <div class="header">
+        <h4>
+            Questions Order
+        </h4>
+    </div> 
+    <div class="content">
+        <form asp-action="Order" method="post">
+           <ul class="sortList">
+               @for (var i = 0; i < Model.Count(); i++)
+               {
+                   <li>
+                        <input type="hidden" asp-for=@Model[i].Id />                        
+                        <input type="hidden" asp-for=@Model[i].Order />                        
+                        @Model[i].QuestionText
+                    </li>   
+               }
+            </ul>   
+
+            @if (Model.Count > 0)
+            {
+                <div class="form-actions margin-reset">
+                    <div class="pull-right">
+                        <button type="submit" class="btn btn-success">Save Order</button>
+                    </div>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+
+@section scripts{
+    <script>
+        function changeOrder() {
+            var order = 1;
+            $(".sortList li").each(function(){
+                var $this = $(this);
+                $this.find('input[name$="Order"]').val(order);
+                order = order + 1;
+            });
+        }
+   
+        $( ".sortList" ).sortable({
+            update: function( event, ui ) { changeOrder(); }
+        });
+    </script>
+}
+

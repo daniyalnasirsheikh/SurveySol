@@ -1,0 +1,64 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="refresh" content="300">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    @*<meta http-equiv="X-UA-Compatible" content="IE=edge">*@
+    <title>@ViewData["Title"] - Bank Nizwa</title>
+
+    @if (ViewData["Language"] as string == "Arabic")
+    {
+        <link href="~/sv/themes/default/css/uni-form_ar.css" media="screen" rel="stylesheet" />
+    }
+    else
+    {
+        <link href="~/sv/themes/default/css/uni-form.css" media="screen" rel="stylesheet" />
+    }
+
+    <link href="~/sv/themes/default/css/SurveyResponsive.css" rel="stylesheet" type="text/css" />
+    <link href="~/sv/themes/default/css/style.css" media="screen" rel="stylesheet" />
+    <link href="~/sv/themes/default/css/default.uni-form.css" id="formStyle" media="screen" rel="stylesheet" />
+    <link href="~/sv/themes/default/css/tables.css" media="screen" rel="stylesheet" />
+    <link href="~/css/site.css" media="screen" rel="stylesheet" />
+    <link href="~/sv/css/smoothness/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="screen">
+
+    <script type="text/javascript" src="~/sv/js/jquery.js"></script>
+    <script type="text/javascript" src="~/sv/themes/default/js/uni-form.jquery.min.js"></script>
+    <script type="text/javascript" src="~/sv/themes/default/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/sv/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="~/sv/js/Rating.js"></script>
+    <style>
+
+        
+
+        @@media
+        screen and (max-width: 500px) and (min-width: 100px) 
+        {
+            #okay, #terrible, #bad, #good, #great
+            {
+                width: 40px;
+                height: 40px;
+                background-size: 40px 40px;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
+                /*white-space: nowrap;*/
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

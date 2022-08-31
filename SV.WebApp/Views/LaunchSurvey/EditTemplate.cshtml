@@ -1,0 +1,61 @@
+﻿@model EmailTemplate
+@{
+    ViewData["Title"] = "Edit Email Template";
+}
+
+<div class="box">
+    <div class="header">
+        <h4>Email Template</h4>
+    </div>
+    <div class="content">         
+        <form class="form-vertical margin-reset" method="post">
+            
+            <input type="hidden" asp-for=Id />
+            
+            <br />
+
+            <div class="rowelement padding-reset">
+                <div class="span2">
+                    Sender Name
+                </div>
+                <div class="span6 margin-reset">
+                    <input type="text" asp-for=SenderName class="input-block-level" />
+                    <p class="help-block">Hint: Email sender name.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement padding-reset">
+                <div class="span2">
+                    Email Subject
+                </div>
+                <div class="span6 margin-reset">
+                    <input type="text" asp-for=Subject class="input-block-level" required/>
+                    <p class="help-block">Hint: Use tag #Name (Receiver Name), #surl (Survey url) to put value in surject or body section</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="rowelement padding-reset">
+                <div class="span2">
+                    Email Body
+                </div>
+                <div class="span6 margin-reset">
+                    <textarea asp-for=Body class="input-block-level" rows="10" required>
+
+                    </textarea>
+                    <p class="help-block">Hint: Use tag #Name (Receiver Name), #surl (Survey url) to put value in surject or body section</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="form-actions">
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-success pull-right">Save</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+ </div>
+

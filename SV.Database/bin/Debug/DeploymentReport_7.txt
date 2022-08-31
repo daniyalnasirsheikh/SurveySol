@@ -1,0 +1,47 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Question]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Question].[IsDocRequire] on table [dbo].[Question] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Survey].[Description] is being dropped, data loss could occur.
+       The column [dbo].[Survey].[Footer] is being dropped, data loss could occur.
+       The column [dbo].[Survey].[Heading] is being dropped, data loss could occur.
+       The column [dbo].[Survey].[Introduction] is being dropped, data loss could occur.
+       The column [dbo].[Survey].[Note] is being dropped, data loss could occur.
+       The column [dbo].[Survey].[Password] is being dropped, data loss could occur.
+       The column [dbo].[Survey].[SubHeading] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_QuestionAnswer] (Foreign Key)
+       [dbo].[FK_SurveyQuestion] (Foreign Key)
+       [dbo].[FK_SurveyResponseProfileAnswer] (Foreign Key)
+       [dbo].[FK_SurveyUserShareSurvey] (Foreign Key)
+     Table rebuild
+       [dbo].[Question] (Table)
+     Alter
+       [dbo].[Survey] (Table)
+     Create
+       [dbo].[FK_QuestionAnswer] (Foreign Key)
+       [dbo].[FK_SurveyQuestion] (Foreign Key)
+       [dbo].[FK_SurveyResponseProfileAnswer] (Foreign Key)
+       [dbo].[FK_SurveyUserShareSurvey] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[Question].[IsDocRequire] on table [dbo].[Question] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Survey].[Description] is being dropped, data loss could occur.
+The column [dbo].[Survey].[Footer] is being dropped, data loss could occur.
+The column [dbo].[Survey].[Heading] is being dropped, data loss could occur.
+The column [dbo].[Survey].[Introduction] is being dropped, data loss could occur.
+The column [dbo].[Survey].[Note] is being dropped, data loss could occur.
+The column [dbo].[Survey].[Password] is being dropped, data loss could occur.
+The column [dbo].[Survey].[SubHeading] is being dropped, data loss could occur.
+

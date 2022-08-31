@@ -1,0 +1,246 @@
+﻿@model IEnumerable<Question>
+@{
+    ViewData["Title"] = ViewBag.Survey.Name + " - Dashboard";
+
+}
+
+<div id="mainDashboardDiv">
+    <div class="box" id="mainDashboard">
+        <div class="header">
+            <h4>@ViewBag.Survey.Name Survey Statistics</h4>
+        </div>
+        <div class="content">
+
+            <div class="buttonHolder">
+                <button id="printBtn" class="primaryAction" type="button" onclick="PrintToPDF()">Print</button>
+            </div>
+            <div id="sectionToPrint">
+                @if (Model.Count() > 0)
+                {
+                    int srNo = 1;
+
+                    foreach (var question in Model.OrderBy(m => m.Order))
+                    {
+
+
+                        <div class="inlineLabels ctrlHolder">
+
+                            @if (question.Type != "Single Text" && question.Type != "Comment Box")
+                            {
+                                <label class="questionLbl lblAlign">
+                                    <h3>
+                                        @(srNo++) .@question.QuestionText
+                                    </h3>
+
+                                </label>
+                                <label class="questionLbl lblAlign" dir="rtl">
+                                    <h3>
+                                        @question.QuestionTextArabic
+                                    </h3>
+                                </label>
+                            }
+
+
+
+                        </div>
+                        @if (question.Type == "Rating" || question.Type == "Radio" || question.Type == "Dropdown Menu" || question.Type == "Multiple Choice" || question.Type == "Logic" || question.Type == "Yes or No" || question.Type == "Net Promoter Score" || question.Type == "Matrix Single" || question.Type == "Matrix Multi Select" || question.Type == "Semantic Question")
+                        {
+                            if (srNo == 2)
+                            {
+                                @:<div class="dashboard-firstInnerdiv">
+                                }
+                                else
+                                {
+                                    @:<div class="dashboard-innerdiv">
+                                    }
+
+
+
+                                    if (question.Type == "Rating")
+                                    {
+
+
+                                        <select class="chartDDL">
+                                            <option data-questionId="@question.Id" data-chartType="0">Select Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="1">Bar Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="2">Pie Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="3">Line Chart</option>
+                                        </select>
+
+                                        <table class="normal table-dashboard" border="0" cellpadding="0" cellspacing="0" width="100%" id="">
+
+                                            <tr>
+                                                <td>
+                                                    <div id="terrible" class="bm-terrible"></div>
+                                                    <h4>Terrible</h4>
+                                                </td>
+                                                <td>
+                                                    <div id="bad" class="bm-bad"></div>
+                                                    <h4>Bad</h4>
+                                                </td>
+                                                <td>
+                                                    <div id="okay" class="bm-okay"></div>
+                                                    <h4>Okay</h4>
+                                                </td>
+                                                <td>
+                                                    <div id="good" class="bm-good"></div>
+                                                    <h4>Good</h4>
+                                                </td>
+                                                <td>
+                                                    <div id="great" class="bm-great"></div>
+                                                    <h4>Great</h4>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><h5>@question.RatingTerriblePer %</h5></td>
+                                                <td><h5>@question.RatingBadPer %</h5></td>
+                                                <td><h5>@question.RatingOkayPer %</h5></td>
+                                                <td><h5>@question.RatingGoodPer %</h5></td>
+                                                <td><h5>@question.RatingGreatPer %</h5></td>
+                                            </tr>
+
+                                        </table>
+
+
+                                    }
+                                    else if (question.Type == "Radio" || question.Type == "Dropdown Menu" || question.Type == "Multiple Choice" || question.Type == "Logic" || question.Type == "Yes or No" || question.Type == "Net Promoter Score")
+                                    {
+                                        <select class="chartDDL">
+                                            <option data-questionId="@question.Id" data-chartType="0">Select Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="1">Bar Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="2">Pie Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="3">Line Chart</option>
+                                        </select>
+
+                                        <table class="normal table-dashboard" border="0" cellpadding="0" cellspacing="0" width="100%" id="">
+
+
+                                            @if (question.KeyValuePair != null && question.KeyValuePair.Count > 0)
+                                            {
+                                                <tr>
+                                                    @foreach (var radioBtn in question.KeyValuePair)
+                                                    {
+                                                        <td>
+                                                            <h4>@radioBtn.Key</h4>
+                                                        </td>
+                                                    }
+                                                </tr>
+                                                <tr>
+                                                    @foreach (var radioBtn in question.KeyValuePair)
+                                                    {
+                                                        <td>
+                                                            <h5>@radioBtn.Value %</h5>
+                                                        </td>
+                                                    }
+                                                </tr>
+                                            }
+
+                                        </table>
+
+                                    }
+                                    else if (question.Type == "Matrix Single" || question.Type == "Matrix Multi Select" || question.Type == "Semantic Question")
+                                    {
+                                        var rows = question.OptionsViewModel.MatrixRowsOptions;
+                                        var cols = question.OptionsViewModel.MatrixHeaderOptions;
+
+                                        <select class="chartDDL">
+                                            <option data-questionId="@question.Id" data-chartType="0">Select Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="1">Bar Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="2">Pie Chart</option>
+                                            <option data-questionId="@question.Id" data-chartType="3">Line Chart</option>
+                                        </select>
+
+                                        <table class="normal table-dashboard" border="0" cellpadding="0" cellspacing="0" width="100%" id="">
+                                            <tbody>
+                                                @for (int i = 0; i < rows.Count + 1; i++)
+                                                {
+                                                    <tr>
+                                                        @if (i == 0)
+                                                        {
+                                                            <th></th>
+                                                        }
+                                                        else
+                                                        {
+                                                            <th align="center">
+                                                                <h4>
+                                                                    @rows[i - 1]
+                                                                </h4>
+                                                            </th>
+
+                                                        }
+
+
+                                                        @for (int j = 0; j < cols.Count; j++)
+                                                        {
+                                                            if (i == 0)
+                                                            {
+                                                                <th align="center">
+                                                                    <h4>
+                                                                        @cols[j]
+                                                                    </h4>
+                                                                </th>
+                                                            }
+                                                            else
+                                                            {
+                                                                <td align="center">
+                                                                    <h5>
+                                                                        @question.MatrixArray[i - 1, j] %
+                                                                    </h5>
+                                                                </td>
+                                                            }
+                                                        }
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+
+                                    }
+
+                                    <div id="chart-@question.Id">
+
+                                    </div>
+
+                                @:</div>
+                                @*<div class="emptyDiv">
+                            <button class="emptySpaceBtn" onclick="AddEmtpySpace(this)"> Add Empty Space</button>
+
+                        </div>*@
+                            }
+                    }
+                }
+                else
+                {
+                    <p class="pad20">No questions found</p>
+                }
+            </div>
+            </div>
+        </div>
+        </div>
+<div id="responsesDiv">
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+@section scripts
+{
+    <script src="~/sv/js/Responses.js"></script>
+    <script src="~/sv/js/Dashboard.js"></script>
+    <script src="~/sv/js/Chart.bundle.min.js"></script>
+    <script src="~/sv/js/Chart.min.js"></script>
+    <script src="~/sv/js/jspdf.min.js"></script>
+    <script src="~/sv/js/html2canvas.js"></script>
+
+
+}
+
+@section Styles
+{
+    <link href="~/sv/themes/default/css/Dashboard.css" rel="stylesheet" />
+    <link href="~/sv/themes/default/css/Dashboard.css" rel="stylesheet" />
+    <link href="~/sv/css/Chart.min.css" rel="stylesheet" />
+}
+
+
+

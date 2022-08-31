@@ -1,0 +1,16 @@
+﻿@using Newtonsoft.Json
+@model SV.Models.Entities.Question
+
+<div class="chart-container" style="position: relative; width:100%">
+    <canvas id="chart"></canvas>
+</div>
+
+<script>
+        var keyValuePair = @Html.Raw(JsonConvert.SerializeObject(Model.KeyValuePair));
+        var chartType = parseInt('@ViewBag.ChartType');
+        var questionId = parseInt('@Model.Id');
+        var questionType = '@ViewBag.QuestionType';
+</script>
+<script src="~/sv/js/DashboardCharts.js"></script>
+
+

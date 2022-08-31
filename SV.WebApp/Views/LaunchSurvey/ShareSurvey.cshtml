@@ -1,0 +1,63 @@
+﻿@model SurveySendViewModel
+
+@{
+    ViewData["Title"] = "Shared Survey Short Link";
+}
+
+@if(!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+{
+    <div class="alert alert-success">@Model.SuccessMessage</div>   
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+
+
+<div class="box">
+    <div class="header">
+        <h4>
+            Link Generated!
+        </h4>
+    </div>
+
+    <div class="content">  
+
+        <form class="form-horizontal" method="post">
+            <br />
+
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    <p>Survey url:</p>
+                </div>
+                <div class="span5">
+                    <input type="text" asp-for=Url class="input-block-level" readonly required style="cursor: pointer;"/>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="rowelement padding-reset">
+                <div class="span3">
+                    <p>Emails List:</p>
+                </div>
+                <div class="span5">
+                    <textarea asp-for=EmailText class="input-block-level" rows="7" required></textarea>
+                    <p class="help-block inpass"> HINT: use this format <b> Name,Email </b> then press enter and so on... </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-success pull-right">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script>
+    console.log(@Model.ErrorMessage);
+
+</script>

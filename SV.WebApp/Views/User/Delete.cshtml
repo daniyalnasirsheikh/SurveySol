@@ -1,0 +1,30 @@
+﻿@model UserViewModel
+
+@{
+    ViewData["Title"] = "User";
+}
+
+<div class="box">
+    <div class="header"><h4>Delete User</h4></div>
+    <div class="content">
+        <form asp-action=DeleteConfirmed class="form-horizontal margin-reset" method="post">
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="rowelement">
+                <div class="span5">
+                    <p>Are you sure you want to delete this user <strong>@Model.Username (@Model.Email) </strong>?</p>
+				</div>
+			</div>
+
+            <div class="form-actions margin-reset">
+                <div class="pull-right">
+                    <a asp-controller="Survey" asp-action="Index" class="btn">Cancel</a>
+                    <button type="submit" name="delete-survey" data-option="delete-survey" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+

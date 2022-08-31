@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[FK_SurveyQuestion] (Foreign Key)
+       [dbo].[FK_AspNetUserUserShareSurvey] (Foreign Key)
+       [dbo].[FK_SurveyUserShareSurvey] (Foreign Key)
+       [dbo].[UC_UserSurvey] (Unique Constraint)
+     Create
+       [dbo].[Answer] (Table)
+       [dbo].[SurveyResponseProfile] (Table)
+       [dbo].[UC_User_Survey] (Unique Constraint)
+       [dbo].[FK_SurveyResponseProfile_Answer] (Foreign Key)
+       [dbo].[FK_Question_Answer] (Foreign Key)
+       [dbo].[FK_Survey_Question] (Foreign Key)
+       [dbo].[FK_AspNetUserUserShare_Survey] (Foreign Key)
+       [dbo].[FK_SurveyUserShare_Survey] (Foreign Key)
+
+** Supporting actions

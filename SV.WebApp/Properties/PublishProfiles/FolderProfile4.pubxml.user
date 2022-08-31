@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\NXAdmin\Downloads\publishsurvey</_PublishTargetUrl>
+    <History>True|2022-08-07T08:29:58.0104464Z;True|2022-08-03T03:19:07.1080548-07:00;True|2022-08-03T02:59:52.0107041-07:00;True|2022-08-03T01:26:28.2809188-07:00;True|2022-08-03T00:05:00.9864201-07:00;True|2022-08-03T00:04:28.9672057-07:00;True|2022-08-01T06:23:58.0171994-07:00;True|2022-07-31T23:10:34.5219471-07:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SVDB">
+      <Value>Data Source=WIN-TEE3N1QPU51\MSSQLSERVER01%3b Initial Catalog=SVDB%3b Integrated Security=false%3b User id=sa%3b password=P%40%24%24w0rd</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
