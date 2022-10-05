@@ -142,6 +142,11 @@ namespace SV.WebApp.Controllers
         [HttpGet]
         public IActionResult AccessDenied()
         {
+            if (User.IsInRole("User Manager"))
+            {
+                ViewBag.IsUserManager = true;
+                    
+            }
             return View();
         }
     }
