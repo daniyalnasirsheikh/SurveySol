@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Complete Systems\\Survey Solution\\SV\\SV.Business\\SV.Business.csproj": {}
+    "E:\\Enum Solutions\\SurveySolution\\SV.Business\\SV.Business.csproj": {}
   },
   "projects": {
-    "E:\\Complete Systems\\Survey Solution\\SV\\SV.Business\\SV.Business.csproj": {
+    "E:\\Enum Solutions\\SurveySolution\\SV.Business\\SV.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Business\\SV.Business.csproj",
+        "projectUniqueName": "E:\\Enum Solutions\\SurveySolution\\SV.Business\\SV.Business.csproj",
         "projectName": "SV.Business",
-        "projectPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Business\\SV.Business.csproj",
-        "packagesPath": "C:\\Users\\NXAdmin\\.nuget\\packages\\",
-        "outputPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Business\\obj\\",
+        "projectPath": "E:\\Enum Solutions\\SurveySolution\\SV.Business\\SV.Business.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\Enum Solutions\\SurveySolution\\SV.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NXAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Complete Systems\\Survey Solution\\SV\\SV.Data\\SV.Data.csproj": {
-                "projectPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Data\\SV.Data.csproj"
+              "E:\\Enum Solutions\\SurveySolution\\SV.Data\\SV.Data.csproj": {
+                "projectPath": "E:\\Enum Solutions\\SurveySolution\\SV.Data\\SV.Data.csproj"
               }
             }
           }
@@ -68,25 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Complete Systems\\Survey Solution\\SV\\SV.Data\\SV.Data.csproj": {
+    "E:\\Enum Solutions\\SurveySolution\\SV.Data\\SV.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Data\\SV.Data.csproj",
+        "projectUniqueName": "E:\\Enum Solutions\\SurveySolution\\SV.Data\\SV.Data.csproj",
         "projectName": "SV.Data",
-        "projectPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Data\\SV.Data.csproj",
-        "packagesPath": "C:\\Users\\NXAdmin\\.nuget\\packages\\",
-        "outputPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Data\\obj\\",
+        "projectPath": "E:\\Enum Solutions\\SurveySolution\\SV.Data\\SV.Data.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\Enum Solutions\\SurveySolution\\SV.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NXAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Complete Systems\\Survey Solution\\SV\\SV.Models\\SV.Models.csproj": {
-                "projectPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Models\\SV.Models.csproj"
+              "E:\\Enum Solutions\\SurveySolution\\SV.Models\\SV.Models.csproj": {
+                "projectPath": "E:\\Enum Solutions\\SurveySolution\\SV.Models\\SV.Models.csproj"
               }
             }
           }
@@ -150,25 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Complete Systems\\Survey Solution\\SV\\SV.Models\\SV.Models.csproj": {
+    "E:\\Enum Solutions\\SurveySolution\\SV.Models\\SV.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Models\\SV.Models.csproj",
+        "projectUniqueName": "E:\\Enum Solutions\\SurveySolution\\SV.Models\\SV.Models.csproj",
         "projectName": "SV.Models",
-        "projectPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Models\\SV.Models.csproj",
-        "packagesPath": "C:\\Users\\NXAdmin\\.nuget\\packages\\",
-        "outputPath": "E:\\Complete Systems\\Survey Solution\\SV\\SV.Models\\obj\\",
+        "projectPath": "E:\\Enum Solutions\\SurveySolution\\SV.Models\\SV.Models.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\Enum Solutions\\SurveySolution\\SV.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NXAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -222,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
