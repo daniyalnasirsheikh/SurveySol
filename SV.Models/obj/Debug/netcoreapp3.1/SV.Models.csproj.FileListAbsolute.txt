@@ -27,3 +27,13 @@ E:\Complete Systems\Survey Solution\SV\SV.Models\obj\Debug\netcoreapp3.1\SV.Mode
 E:\Complete Systems\Survey Solution\SV\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.dll
 E:\Complete Systems\Survey Solution\SV\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.pdb
 E:\Complete Systems\Survey Solution\SV\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.csproj.AssemblyReference.cache
+E:\Enum Solutions\SurveySolution\SV.Models\bin\Debug\netcoreapp3.1\SV.Models.deps.json
+E:\Enum Solutions\SurveySolution\SV.Models\bin\Debug\netcoreapp3.1\SV.Models.dll
+E:\Enum Solutions\SurveySolution\SV.Models\bin\Debug\netcoreapp3.1\SV.Models.pdb
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.csproj.AssemblyReference.cache
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.AssemblyInfoInputs.cache
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.AssemblyInfo.cs
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.csproj.CoreCompileInputs.cache
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.dll
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.pdb

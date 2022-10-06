@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace SV.WebApp.Controllers
 {
-    [Authorize(Roles = "Admin,Pollster,Reviewer")]
+    [Authorize(Roles = "Admin,Reviewer")]
 
     public class LaunchSurveyController : Controller
     {

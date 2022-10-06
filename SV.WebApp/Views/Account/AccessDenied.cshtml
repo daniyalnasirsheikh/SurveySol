@@ -8,6 +8,18 @@
 <br />
 
 <p>
-    <a asp-controller="Home" asp-action="Index">Go to Home</a>
+    @if (@ViewBag.IsUserManager == true)
+    {
+        <a asp-controller="User" asp-action="Index">Go to Home</a>
+    }
+    else if (@ViewBag.IsReviewer == true)
+    {
+        <a asp-controller="LaunchSurvey" asp-action="Index">Go to Home</a>
+    }
+    else
+    {
+        <a asp-controller="Home" asp-action="Index">Go to Home</a>
+    }
+
 </p>
 
