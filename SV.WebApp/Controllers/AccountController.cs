@@ -147,6 +147,10 @@ namespace SV.WebApp.Controllers
                 ViewBag.IsUserManager = true;
                     
             }
+            else if (User.IsInRole("Reviewer"))
+            {
+                ViewBag.IsReviewer = true;
+            }
             return View();
         }
     }

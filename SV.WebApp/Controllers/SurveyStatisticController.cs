@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace SV.WebApp.Controllers
 {
-    [Authorize(Roles = "Admin,Pollster,Reviewer")]
+    [Authorize(Roles = "Admin,Reviewer")]
     public class SurveyStatisticController : Controller
     {
         private readonly UserManager<IdentityUser> userManager;
