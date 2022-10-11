@@ -16,6 +16,7 @@ namespace SV.Models.ViewModels
             SurveyId = survey.Id;
             SurveyName = survey.Name;
             Users = new List<SurveyShareUserViewModel>();
+            users.RemoveAt(1);
 
             foreach (var user in users)
             {
