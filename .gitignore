@@ -6,3 +6,11 @@
 .vs/SV/DesignTimeBuild/.dtbcache.v2
 
 .vs/SV/v16/.suo
+
+SV.Business/obj/Debug/netcoreapp3.1/SV.Business.csproj.AssemblyReference.cache
+
+SV.Data/obj/Debug/netcoreapp3.1/SV.Data.csproj.AssemblyReference.cache
+
+SV.Models/obj/Debug/netcoreapp3.1/SV.Models.csproj.AssemblyReference.cache
+
+SV.WebApp/obj/Debug/netcoreapp3.1/SV.WebApp.csproj.AssemblyReference.cache
