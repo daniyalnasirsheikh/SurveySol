@@ -32,6 +32,9 @@ namespace SV.Models.Entities
         public int? MaxResponse { get; set; }
         public int? QuestionPerPage { get; set; }
         public bool IsLaunched { get; set; }
+        public bool IsRejected { get; set; }
+        public bool IsSubmitted { get; set; }
+
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
 

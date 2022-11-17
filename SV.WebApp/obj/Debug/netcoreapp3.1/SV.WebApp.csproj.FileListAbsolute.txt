@@ -640,9 +640,9 @@ E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebA
 E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.pdb
 E:\Complete Systems\Survey Solution\SV\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.genruntimeconfig.cache
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\appsettings.Production.json
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\appsettings.Staging.json
-E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\bundleconfig.json
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\SV.WebApp.StaticWebAssets.xml
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\SV.WebApp.exe
@@ -801,6 +801,10 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\A
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\InactiveSurvey\Index.cshtml.g.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\InactiveSurvey\Launch.cshtml.g.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\InactiveSurvey\Preview.cshtml.g.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\InactiveSurvey\_PreviewQuestion.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\LaunchSurvey\Create.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\LaunchSurvey\DeletePreviousReponses.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\LaunchSurvey\Edit.cshtml.g.cs
@@ -834,6 +838,7 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\S
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\Edit.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\Index.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\Preview.cshtml.g.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\Resubmit.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\Share.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\SurveyCompleted.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Survey\SurveyExpired.cshtml.g.cs

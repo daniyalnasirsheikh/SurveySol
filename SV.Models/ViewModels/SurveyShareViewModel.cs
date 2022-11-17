@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using SV.Models.Entities;
 using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace SV.Models.ViewModels
 {
@@ -11,12 +12,15 @@ namespace SV.Models.ViewModels
             Users = new List<SurveyShareUserViewModel>();
         }
 
-        public SurveyShareViewModel(Survey survey, List<IdentityUser> users, List<UserShareSurvey> userShareSurveys)
+        public SurveyShareViewModel(Survey survey, List<IdentityUser> users, List<UserShareSurvey> userShareSurveys, string loggedInUserName)
         {
             SurveyId = survey.Id;
             SurveyName = survey.Name;
             Users = new List<SurveyShareUserViewModel>();
-            users.RemoveAt(1);
+
+
+            users.Remove(null); 
+            
 
             foreach (var user in users)
             {

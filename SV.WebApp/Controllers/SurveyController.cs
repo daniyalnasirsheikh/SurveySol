@@ -78,7 +78,7 @@ namespace SV.WebApp.Controllers
         {
             var user = await userManager.FindByNameAsync(User.Identity.Name);
             model.UserId = user.Id;
-
+            model.IsSubmitted = true;
             model.LogoPath = fileService.Save(logo);
             model.BannerPath = fileService.Save(banner);
             model.BackgroundImagePath = fileService.Save(background);
@@ -98,7 +98,6 @@ namespace SV.WebApp.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
         public async Task<IActionResult> Edit(int id)
         {
             if (!User.IsInRole("Admin"))
@@ -151,7 +150,9 @@ namespace SV.WebApp.Controllers
                 model.DepartmentIds = DepartIds;
             }
 
-
+            model.IsRejected = false;
+            model.IsLaunched = false;
+            model.IsSubmitted = true;
             var result = surveyRepository.Update(model);
 
             return RedirectToAction(nameof(Index));
@@ -252,7 +253,7 @@ namespace SV.WebApp.Controllers
             }
             
             var survey = surveyRepository.GetByID(id);
-            string[] surveyDepartmentIDs = survey.DepartmentIds.Split(',');
+
             List<IdentityUser> users = new List<IdentityUser>();
 
             if (!User.IsInRole("Admin"))
@@ -261,28 +262,38 @@ namespace SV.WebApp.Controllers
             }
 
             users.AddRange(await userManager.GetUsersInRoleAsync("Pollster"));
+            users.AddRange(await userManager.GetUsersInRoleAsync("Reviewer"));
 
-            List<string> userDepartmentIDs = new List<string>();
-            for (int i = 0; i < surveyDepartmentIDs.Length; i++)
-            {
-                userDepartmentIDs.AddRange(userdepartmentRepository.GetUsersByDepartmentIDs(surveyDepartmentIDs[i]));
-            }
-            var Currentuser = await userManager.FindByNameAsync(User.Identity.Name);
-            userDepartmentIDs.Remove(Currentuser.Id);
-            foreach (var item in userDepartmentIDs)
-            {
-                users.Add(await userManager.FindByIdAsync(item)); 
-            }
+            // This code gets only those users which are mapped to the department of the survey
+            //string[] surveyDepartmentIDs = survey.DepartmentIds.Split(',');
+            //List<string> userDepartmentIDs = new List<string>();
+            //for (int i = 0; i < surveyDepartmentIDs.Length; i++)
+            //{
+            //    userDepartmentIDs.AddRange(userdepartmentRepository.GetUsersByDepartmentIDs(surveyDepartmentIDs[i]));
+            //}
+            //var Currentuser = await userManager.FindByNameAsync(User.Identity.Name);
+            //userDepartmentIDs.Remove(Currentuser.Id);
+            //foreach (var item in userDepartmentIDs)
+            //{
+            //    users.Add(await userManager.FindByIdAsync(item)); 
+            //}
+            //HashSet<IdentityUser> uniqueUsers = new HashSet<IdentityUser>();
+            //foreach (var item in users)
+            //{
+            //    uniqueUsers.Add(item);
+            //}
 
-            
             var userShareSurveys = await userShareSurveyRepository.GetBySurveyId(id);
-            HashSet<IdentityUser> uniqueUsers = new HashSet<IdentityUser>();
+
+            List<IdentityUser> usersExceptLoggedInUser = new List<IdentityUser>();
             foreach (var item in users)
-            {
-                uniqueUsers.Add(item);
+            {   
+                if (!item.UserName.Equals(User.Identity.Name))
+                {
+                    usersExceptLoggedInUser.Add(item);
+                }
             }
-            
-            var model = new SurveyShareViewModel(survey, uniqueUsers.ToList(), userShareSurveys);
+            var model = new SurveyShareViewModel(survey, usersExceptLoggedInUser, userShareSurveys, User.Identity.Name);
 
             return View(model);
         }
@@ -570,6 +581,35 @@ namespace SV.WebApp.Controllers
                 throw ex;
             }
 
+        }
+
+        public async Task<IActionResult> Resubmit(int id)
+        {
+            if (!User.IsInRole("Admin"))
+            {
+                var user = await userManager.FindByNameAsync(User.Identity.Name);
+
+                if (!surveyRepository.IsOwnOrShare(id, user.Id))
+                {
+                    return NotFound();
+                }
+            }
+
+            var model = surveyRepository.GetByID(id);
+            ViewBag.Departments = departmentRepository.GetAllDepartments();
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult Resubmit(Survey model)
+        {
+            var surveyEdited = surveyRepository.GetByID(model.Id);
+
+            surveyEdited.IsRejected = false;
+            surveyEdited.IsLaunched = false;
+            surveyEdited.IsSubmitted = true;
+            var result = surveyRepository.Update(surveyEdited);
+
+            return RedirectToAction(nameof(Index));
         }
 
     }

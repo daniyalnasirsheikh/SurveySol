@@ -20,27 +20,32 @@
                     <tr>
                         <th>Survey</th>
                         <th>Language</th>
-                        <th>Status</th>
+                        <th>Launched Status</th>
+                        <th>Rejected Status</th>
+                        <th>Submitted Status</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        <tr>
-                            <td>@item.Name</td>
-                            <td>@item.Language</td>
-                            <td>@(item.IsLaunched == true? "Launched": "Not Launch")</td>
-                            <td>
-                                <ul class="table-actions">
-                                    <li><a asp-controller="Question" asp-action="Index" asp-route-surveyId="@item.Id" title="Show Questions" ><i class="icon-file"></i></a></li>
-                                    <li><a asp-action="Edit" asp-route-id="@item.Id" title="Edit Survey"><i class="icon-edit"></i></a></li>
-                                    <li><a asp-action="Share" asp-route-id="@item.Id" title="Share Survey"><i class="icon-share"></i></a></li>
-                                    <li><a asp-action="Delete" asp-route-id="@item.Id" title="Delete Survey"><i class="icon-trash"></i></a></li>
-                                    <li><a asp-action="Preview" title="Preview Survey" asp-route-id="@item.Id" target="_blank"><i class="icon-globe"></i></a></li>
-                                </ul>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Language</td>
+                        <td>@(item.IsLaunched == true? "Launched": "Not Launched")</td>
+                        <td>@(item.IsRejected == true? "Rejected": "Not Rejected")</td>
+                        <td>@(item.IsSubmitted == true? "Submitted": "Not Submitted")</td>
+                        <td>
+                            <ul class="table-actions">
+                                <li><a asp-controller="Question" asp-action="Index" asp-route-surveyId="@item.Id" title="Show Questions"><i class="icon-file"></i></a></li>
+                                <li><a asp-action="Edit" asp-route-id="@item.Id" title="Edit Survey"><i class="icon-edit"></i></a></li>
+                                <li><a asp-action="Share" asp-route-id="@item.Id" title="Share Survey"><i class="icon-share"></i></a></li>
+                                <li><a asp-action="Delete" asp-route-id="@item.Id" title="Delete Survey"><i class="icon-trash"></i></a></li>
+                                <li><a asp-action="Preview" title="Preview Survey" asp-route-id="@item.Id" target="_blank"><i class="icon-globe"></i></a></li>
+                                <li><a asp-action="Resubmit" title="Submit Survey" asp-route-id="@item.Id" target="_blank"><i class="icon-retweet"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
                     }
                 </tbody>
             </table> 

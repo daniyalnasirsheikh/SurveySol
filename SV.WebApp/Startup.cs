@@ -44,10 +44,18 @@ namespace SV.WebApp
                    options => options.UseSqlServer(Configuration.GetConnectionString("SVDB"))
                );
 
-            services.AddIdentity<IdentityUser, IdentityRole>()
-                .AddEntityFrameworkStores<SVDBContext>()
-                .AddDefaultTokenProviders();
-            
+            //services.AddIdentity<IdentityUser, IdentityRole>()
+            //    .AddEntityFrameworkStores<SVDBContext>()
+            //    .AddDefaultTokenProviders();
+
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+            })
+            .AddEntityFrameworkStores<SVDBContext>()
+            .AddDefaultTokenProviders();
+
             services.AddControllersWithViews();
 
             services.AddScoped<IRepository<Survey>, Repository<Survey>>();

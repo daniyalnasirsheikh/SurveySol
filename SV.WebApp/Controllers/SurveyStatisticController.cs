@@ -21,10 +21,12 @@ namespace SV.WebApp.Controllers
         private readonly IRepository<SurveyResponseProfile> srpRepository;
         private readonly IAnswerRepository answerRepository;
         private readonly ISurveyResponseProfileRepository repositorySRP;
+        private readonly iUserDepartmentRepository userDepartmentRepository;
 
         public SurveyStatisticController(UserManager<IdentityUser> userManager, ISurveyRepository surveyRepository, IQuestionRepository questionRepository, 
-            IRepository<SurveyResponseProfile> srpRepository, IAnswerRepository answerRepository, ISurveyResponseProfileRepository repositorySRP)
+            IRepository<SurveyResponseProfile> srpRepository, IAnswerRepository answerRepository, ISurveyResponseProfileRepository repositorySRP, iUserDepartmentRepository userDepartmentRepository)
         {
+            this.userDepartmentRepository = userDepartmentRepository;
             this.userManager = userManager;
             this.surveyRepository = surveyRepository;
             this.questionRepository = questionRepository;
@@ -38,7 +40,10 @@ namespace SV.WebApp.Controllers
             ViewBag.SurveyStatisticsActive = "current";
             //var surveys = surveyRepository.GetAll(User.IsInRole("Admin"), user.Id);
             var user = await userManager.FindByNameAsync(User.Identity.Name);
-            var surveys = surveyRepository.GetAllPublish(User.IsInRole("Admin"), user.Id);
+            var roles = await userManager.GetRolesAsync(user);
+            string UserRole = roles[0];
+            string userDepartmentIds = userDepartmentRepository.GetUserDepartmentIDs(user.Id);
+            var surveys = surveyRepository.GetAllLaunched(User.IsInRole("Admin"), user.Id,UserRole, userDepartmentIds);
             return View(surveys);
         }
 
@@ -93,25 +98,29 @@ namespace SV.WebApp.Controllers
 
         public async Task<IActionResult> Responses(int id)
         {
-            if (!User.IsInRole("Admin"))
-            {
-                var user = await userManager.FindByNameAsync(User.Identity.Name);
+            //if (!User.IsInRole("Admin"))
+            //{
+            //    var user = await userManager.FindByNameAsync(User.Identity.Name);
 
-                if (!surveyRepository.IsOwnOrShare(id, user.Id))
+            //    if (!surveyRepository.IsOwnOrShare(id, user.Id))
+            //    {
+            //        return NotFound();
+            //    }
+            //}
+            List<SurveyResponseProfile> responseProfiles = new List<SurveyResponseProfile>();
+            if (User.IsInRole("Reviewer") || User.IsInRole("Admin"))
+            {
+                Survey survey = surveyRepository.GetByID(id);
+
+                if (survey == null)
                 {
                     return NotFound();
                 }
+
+                ViewBag.Survey = survey;
+                responseProfiles = await repositorySRP.GetBySurveyId(id);
             }
-
-            Survey survey = surveyRepository.GetByID(id);
-
-            if (survey == null)
-            {
-                return NotFound();
-            }
-
-            ViewBag.Survey = survey;
-            List<SurveyResponseProfile> responseProfiles = await repositorySRP.GetBySurveyId(id);
+            
             return PartialView("_Responses", responseProfiles);
         }
 
@@ -119,15 +128,15 @@ namespace SV.WebApp.Controllers
         {
             ViewBag.SurveyStatisticsActive = "current";
 
-            if (!User.IsInRole("Admin"))
-            {
-                var user = await userManager.FindByNameAsync(User.Identity.Name);
+            //if (!User.IsInRole("Admin"))
+            //{
+            //    var user = await userManager.FindByNameAsync(User.Identity.Name);
 
-                if (!surveyRepository.IsOwnOrShare(id, user.Id))
-                {
-                    return NotFound();
-                }
-            }
+            //    if (!surveyRepository.IsOwnOrShare(id, user.Id))
+            //    {
+            //        return NotFound();
+            //    }
+            //}
 
             Survey survey = surveyRepository.GetByID(id);
 

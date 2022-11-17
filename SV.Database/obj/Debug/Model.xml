@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="SV.Database.dll" />
-			<Metadata Name="FileName" Value="E:\COMPLETE SYSTEMS\SURVEY SOLUTION\SV\SV.DATABASE\OBJ\DEBUG\SV.DATABASE.DLL" />
+			<Metadata Name="FileName" Value="E:\ENUM SOLUTIONS\SURVEYSOLUTION\SV.DATABASE\OBJ\DEBUG\SV.DATABASE.DLL" />
 			<Metadata Name="AssemblyName" Value="SV.Database" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="E:\Complete Systems\Survey Solution\SV\SV.Database\obj\Debug\SV.Database.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\SV.Database.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>

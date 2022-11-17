@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Survey>
+@{
+    ViewData["Title"] = "Inactive Surveys";
+}
+
+<div class="box">
+    <div class="header">
+        <h4>
+            Launch Survey
+        </h4>
+    </div>
+    <div class="content">
+
+        @*If survey found in database*@
+        @if (Model.Count() > 0)
+        {
+            <table class="normal bt-dataTable" border="0" cellpadding="0" cellspacing="0" width="100%" id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Survey</th>
+                        <th>Language</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Language</td>
+                            <td>@(item.IsLaunched == true? "Launched": "Not Launched")</td>
+                            <td>
+                                <ul class="table-actions">
+
+                                    <li><a asp-action="Reject" asp-route-id="@item.Id" title="Reject Survey"><i class="icon-remove"></i></a></li>
+                                    <li><a asp-action="Launch" title="Launch Survey" asp-route-id="@item.Id" target="_blank" asp-r><i class="icon-share"></i></a></li>
+                                    <li><a asp-action="Preview" title="Preview Survey" asp-route-id="@item.Id" target="_blank"><i class="icon-globe"></i></a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        @*If no survey found in database*@
+        @if (Model.Count() < 1)
+        {
+            <p class="pad20">No Surveys found</p>
+            <p class="pad20">There are no surveys to Launch.</p>
+        }
+    </div>
+</div>
+
+

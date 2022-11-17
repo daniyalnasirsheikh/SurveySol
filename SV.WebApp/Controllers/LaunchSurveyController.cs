@@ -52,7 +52,10 @@ namespace SV.WebApp.Controllers
         {
             ViewBag.LaunchSurveyActive = "current";
             var user = await userManager.FindByNameAsync(User.Identity.Name);
-            var models = surveyRepository.GetAllPublish(User.IsInRole("Admin"), user.Id);
+            var roles = await userManager.GetRolesAsync(user);
+            string UserRole = roles[0];
+            string userDepartmentIds = userDepartmentRepository.GetUserDepartmentIDs(user.Id);
+            var models = surveyRepository.GetAllLaunched(User.IsInRole("Admin"), user.Id, UserRole, userDepartmentIds);
             return View(models);
         }
 
@@ -85,15 +88,15 @@ namespace SV.WebApp.Controllers
         {
             ViewBag.LaunchSurveyActive = "current";
 
-            if (!User.IsInRole("Admin"))
-            {
-                var user = await userManager.FindByNameAsync(User.Identity.Name);
+            //if (!User.IsInRole("Admin"))
+            //{
+            //    var user = await userManager.FindByNameAsync(User.Identity.Name);
 
-                if (!surveyRepository.IsOwnOrShare(id, user.Id))
-                {
-                    return NotFound();
-                }
-            }
+            //    if (!surveyRepository.IsOwnOrShare(id, user.Id))
+            //    {
+            //        return NotFound();
+            //    }
+            //}
 
             var model = surveyRepository.GetByID(id);
             return View(model);
@@ -102,15 +105,15 @@ namespace SV.WebApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(Survey model)
         {
-            if (!User.IsInRole("Admin"))
-            {
-                var user = await userManager.FindByNameAsync(User.Identity.Name);
+            //if (!User.IsInRole("Admin"))
+            //{
+            //    var user = await userManager.FindByNameAsync(User.Identity.Name);
 
-                if (!surveyRepository.IsOwnOrShare(model.Id, user.Id))
-                {
-                    return NotFound();
-                }
-            }
+            //    if (!surveyRepository.IsOwnOrShare(model.Id, user.Id))
+            //    {
+            //        return NotFound();
+            //    }
+            //}
 
             var survey = surveyRepository.GetByID(model.Id);
 
@@ -125,24 +128,38 @@ namespace SV.WebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
-            if (!User.IsInRole("Admin"))
+  
+            if (User.IsInRole("Reviewer") || User.IsInRole("Admin"))
             {
-                var user = await userManager.FindByNameAsync(User.Identity.Name);
+                var survey = surveyRepository.GetByID(id);
+                survey.StartDate = null;
+                survey.EndDate = null;
+                survey.IsLaunched = false;
 
-                if (!surveyRepository.IsOwnOrShare(id, user.Id))
-                {
-                    return NotFound();
-                }
+                surveyRepository.Update(survey);
+
+                
             }
 
-            var survey = surveyRepository.GetByID(id);
-            survey.StartDate = null;
-            survey.EndDate = null;
-            survey.IsLaunched = false;
-
-            surveyRepository.Update(survey);
-
             return RedirectToAction(nameof(Index));
+            //if (!User.IsInRole("Admin"))
+            //{
+            //    var user = await userManager.FindByNameAsync(User.Identity.Name);
+
+            //    //if (!surveyRepository.IsOwnOrShare(id, user.Id))
+            //    //{
+            //    //    return NotFound();
+            //    //}
+            //}
+
+            //var survey = surveyRepository.GetByID(id);
+            //survey.StartDate = null;
+            //survey.EndDate = null;
+            //survey.IsLaunched = false;
+
+            //surveyRepository.Update(survey);
+
+            //return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> ShareSurvey(int id)
@@ -153,15 +170,15 @@ namespace SV.WebApp.Controllers
                 ViewBag.LaunchSurveyActive = "current";
                 Survey currentSurvey = surveyRepository.GetSurveyByID(id);
                 surveyType = currentSurvey.SurveyType;
-                if (!User.IsInRole("Admin"))
-                {
-                    var user = await userManager.FindByNameAsync(User.Identity.Name);
+                //if (!User.IsInRole("Admin"))
+                //{
+                //    var user = await userManager.FindByNameAsync(User.Identity.Name);
 
-                    if (!surveyRepository.IsOwnOrShare(id, user.Id))
-                    {
-                        return NotFound();
-                    }
-                }
+                //    if (!surveyRepository.IsOwnOrShare(id, user.Id))
+                //    {
+                //        return NotFound();
+                //    }
+                //}
 
                 string surveyURL = uRLConfig.URL + "survey/surveyresponse/" + id;
 

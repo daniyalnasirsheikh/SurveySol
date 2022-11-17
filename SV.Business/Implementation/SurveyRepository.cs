@@ -110,6 +110,37 @@ namespace SV.Business.Implementation
 
             return output;
         }
+        public List<Survey> GetAllLaunched(bool isAdmin, string userId, string role, string userDepartmentIds)
+        {
+            var output = new List<Survey>();
+
+            if (isAdmin)
+            {
+                output = DBSet.Where(x => x.IsLaunched == true).ToList();
+            }
+            else
+            {
+                var ownSurveys = DBSet.Where(x => x.UserId == userId && x.IsLaunched == true).ToList();
+                output.AddRange(ownSurveys);
+                var sharedSurveys = DBSet.Where(x => x.IsLaunched == true && x.UserShareSurveys.Any(u => u.UserId == userId)).ToList();
+                output.AddRange(sharedSurveys);
+
+                List<string> userDepartmentIdsList = userDepartmentIds.Split(',').ToList();
+                foreach (var item in userDepartmentIdsList)
+                {
+                    var departmentRelatedSurveys = DBSet.Where(x => x.IsLaunched == true && x.DepartmentIds.Contains(item));
+                    output.AddRange(departmentRelatedSurveys);
+                }
+                HashSet<Survey> uniqueSurveys = new HashSet<Survey>();
+                foreach (var item in output)
+                {
+                    uniqueSurveys.Add(item);
+                }
+                output = uniqueSurveys.ToList();
+            }
+
+            return output;
+        }
 
         public List<Survey> GetMySurveyStatistics(string userId)
         {
@@ -228,6 +259,35 @@ namespace SV.Business.Implementation
         public Survey GetSurveyByID(int surveyID)
         {
             return DBSet.Where(x => x.Id == surveyID).FirstOrDefault();
+        }
+
+        public List<Survey> GetSubmittedSurveys(bool isAdmin, string userId, string role, string userDepartmentIds)
+        {
+            var output = new List<Survey>();
+
+            if (isAdmin)
+            {
+                output = DBSet.Where(x => x.IsLaunched == false && x.IsRejected.Equals(false) && x.IsSubmitted.Equals(true)).ToList();
+            }
+            else
+            {
+                if (role.Equals("Reviewer"))
+                {
+                    List<string> userDepartmentIdsList = userDepartmentIds.Split(',').ToList();
+                    foreach (var item in userDepartmentIdsList)
+                    {
+                        var departmentRelatedSurveys = DBSet.Where(x => x.IsLaunched == false && x.IsRejected.Equals(false) && x.IsSubmitted.Equals(true) && x.DepartmentIds.Contains(item));
+                        output.AddRange(departmentRelatedSurveys);
+                    }
+
+                }
+                var ownSurveys = DBSet.Where(x => x.UserId == userId && x.IsLaunched == false).ToList();
+                output.AddRange(ownSurveys);
+                var sharedSurveys = DBSet.Where(x => x.IsLaunched == false && x.IsRejected.Equals(false) && x.IsSubmitted.Equals(true) && x.UserShareSurveys.Any(u => u.UserId == userId)).ToList();
+                output.AddRange(sharedSurveys);
+            }
+            List<Survey> distinctSurveys = output.Distinct().ToList();
+            return distinctSurveys;
         }
     }
 }

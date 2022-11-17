@@ -77,7 +77,11 @@ namespace SV.WebApp.Controllers
                 {
                     return RedirectToAction("Index", "User");
                 }
-                else
+                else if (User.IsInRole("Reviewer"))
+                {
+                    return RedirectToAction("Index", "LaunchSurvey");
+                }
+                else 
                 {
                     return RedirectToAction("Index", "Home");
                 }
@@ -93,7 +97,7 @@ namespace SV.WebApp.Controllers
             if (ModelState.IsValid)
             {
                 IdentityUser user = new IdentityUser() { UserName = model.Username };
-                var res = await signInManager.PasswordSignInAsync(model.Username, model.Password, isPersistent: model.RememberMe, false);
+                var res = await signInManager.PasswordSignInAsync(model.Username, model.Password, isPersistent: model.RememberMe, true);
 
                 if (res.Succeeded)
                 {
@@ -103,9 +107,15 @@ namespace SV.WebApp.Controllers
 
                     return RedirectToAction(nameof(Login));
                 }
+                else
+                {
+                    model.ErrorMessage = "Invalid username or password.";
+                }
+                if (res.IsLockedOut)
+                {
+                    model.ErrorMessage = "Your account has been locked following 5 invalid login attempts. Please try again after 15 minutes.";
+                }
                 
-
-                model.ErrorMessage = "Invalid username or password.";
             }
             else
             {

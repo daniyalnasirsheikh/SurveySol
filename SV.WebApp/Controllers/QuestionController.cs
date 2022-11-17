@@ -70,7 +70,7 @@ namespace SV.WebApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Question model, string questionTextArabic)
+        public IActionResult Create(Question model, string questionTextArabic, int surveyId)
         {
             if (model.Id != 0)
             {
@@ -85,6 +85,11 @@ namespace SV.WebApp.Controllers
 
             model.Order = repositoryQuestion.GetNewOrder(model.SurveyId);
             repositoryQuestion.Insert(model);
+            var surveyModel = surveyRepository.GetByID(surveyId);
+            surveyModel.IsRejected = false;
+            surveyModel.IsLaunched = false;
+            surveyModel.IsSubmitted = true;
+            var result = surveyRepository.Update(surveyModel);
             return RedirectToAction(nameof(Index), new { surveyId = model.SurveyId });
         }
 

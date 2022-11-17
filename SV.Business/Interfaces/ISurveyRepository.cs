@@ -20,6 +20,7 @@ namespace SV.Business.Interfaces
         int GetAllUnPublishCount();
         int GetAllCloseCount();
         public Survey GetSurveyByID(int surveyID);
-
+        public List<Survey> GetSubmittedSurveys(bool isAdmin, string userId, string role, string userDepartmentIds);
+        public List<Survey> GetAllLaunched(bool isAdmin, string userId, string role, string userDepartmentIds);
     }
 }

@@ -1,0 +1,295 @@
+﻿@model SV.Models.ViewModels.OptionsViewModel
+
+<input type="hidden" name="[@Model.AnswerIndex].QuestionId" value="@Model.Question.Id" />
+
+<div class="inlineLabels ctrlHolder">
+
+    @if (Convert.ToBoolean(TempData["IsParentQuestion"]) == true)
+    {
+        <label class="questionLbl">@Model.Question.Order .@Model.Question.QuestionText</label>
+        if (!string.IsNullOrWhiteSpace(Model.QuestionTextArabic))
+        {
+            <label class="questionLbl" dir="rtl">@Model.Question.Order .@Model.QuestionTextArabic</label>
+        }
+    }
+    else
+    {
+        <label class="questionLbl">@Model.Question.QuestionText</label>
+        <label class="questionLbl" dir="rtl">@Model.QuestionTextArabic</label>
+    }
+
+    <br />
+    <br />
+
+    @if (Model.Question.Type == "Single Text")
+    {
+        <input type="text" class="textInput large" name="[@Model.AnswerIndex].AnswerText" required="@Model.Question.IsRequire">
+    }
+
+    @if (Model.Question.Type == "Radio")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            @foreach (var opt in Model.Options)
+            {
+                <li>
+                    <label><input type="radio" name="[@Model.AnswerIndex].AnswerText" value="@opt" required="@Model.Question.IsRequire"> @opt </label>
+                </li>
+            }
+        </ul>
+    }
+
+    @if (Model.Question.Type == "Comment Box")
+    {
+        <textarea rows="5" name="[@Model.AnswerIndex].AnswerText" required="@Model.Question.IsRequire"></textarea>
+    }
+
+    @if (Model.Question.Type == "Dropdown Menu")
+    {
+        var listOptions = new SelectList(Model.Options);
+
+        <select asp-items=listOptions name="[@Model.AnswerIndex].AnswerText" required="@Model.Question.IsRequire">
+        </select>
+    }
+
+    @if (Model.Question.Type == "Yes or No")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            <li>
+                <label><input type="radio" name="[@Model.AnswerIndex].AnswerText" value="@Model.YesText" required="@Model.Question.IsRequire"> @Model.YesText </label>
+            </li>
+            <li>
+                <label><input type="radio" name="[@Model.AnswerIndex].AnswerText" value="@Model.NoText" required="@Model.Question.IsRequire"> @Model.NoText </label>
+            </li>
+        </ul>
+    }
+
+    @if (Model.Question.Type == "Multiple Choice")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            @foreach (var opt in Model.Options)
+            {
+                <li>
+                    <label>
+                        <input type="checkbox" onclick="SetAnswerForMultipleChoice('multiple-' + @Model.AnswerIndex, this)" value="@opt.Trim()"> @opt
+                    </label>
+                </li>
+            }
+        </ul>
+        <input type="hidden" name="[@Model.AnswerIndex].AnswerText" id="multiple-@Model.AnswerIndex" value="" class='@(Model.Question.IsRequire == true ? "multiRequired" : "")' />
+    }
+
+    @if (Model.Question.Type == "Semantic Question")
+    {
+        var rows = Model.MatrixRowsOptions;
+        var cols = Model.MatrixHeaderOptions;
+
+        <table class="pure-table pure-table-horizontal ">
+            <tbody>
+                @for (int i = 0; i < rows.Count + 1; i++)
+                {
+                    <tr>
+                        @if (i == 0)
+                        {
+                            <th></th>
+                        }
+                        else
+                        {
+                            <th align="center">@rows[i - 1]</th>
+
+                        }
+
+                        @for (int j = 0; j < cols.Count; j++)
+                        {
+                            if (i == 0)
+                            {
+                                <th align="center">@cols[j]</th>
+                            }
+                            else
+                            {
+                                <td align="center">
+                                    <input type="radio" onclick="SetAnswerForSemantic('multiple-' + @Model.AnswerIndex, this)" name="@Model.AnswerIndex @rows[i - 1]" value="@rows[i - 1].Trim(),@cols[j].Trim()" />
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <input type="hidden" name="[@Model.AnswerIndex].AnswerText" id="multiple-@Model.AnswerIndex" class='@(Model.Question.IsRequire == true ? "multiRequired" : "")' value="" />
+    }
+
+    @if (Model.Question.Type == "Matrix Single")
+    {
+        var rows = Model.MatrixRowsOptions;
+        var cols = Model.MatrixHeaderOptions;
+
+        <table class="pure-table pure-table-horizontal ">
+            <tbody>
+                @for (int i = 0; i < rows.Count + 1; i++)
+                {
+                    <tr>
+                        @if (i == 0)
+                        {
+                            <th></th>
+                        }
+                        else
+                        {
+                            <th align="center">@rows[i - 1]</th>
+
+                        }
+
+                        @for (int j = 0; j < cols.Count; j++)
+                        {
+                            if (i == 0)
+                            {
+                                <th align="center">@cols[j]</th>
+                            }
+                            else
+                            {
+                                <td align="center">
+                                    <input type="radio" name="[@Model.AnswerIndex].AnswerText" value="@(rows[i - 1].Trim() + "," + cols[j].Trim())" required="@Model.Question.IsRequire" />
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.Question.Type == "Matrix Multi Select")
+    {
+        var rows = Model.MatrixRowsOptions;
+        var cols = Model.MatrixHeaderOptions;
+
+        <table class="pure-table pure-table-horizontal">
+            <tbody>
+                @for (int i = 0; i < rows.Count + 1; i++)
+                {
+                    <tr>
+                        @if (i == 0)
+                        {
+                            <th></th>
+                        }
+                        else
+                        {
+                            <th align="center">@rows[i - 1]</th>
+
+                        }
+
+                        @for (int j = 0; j < cols.Count; j++)
+                        {
+                            if (i == 0)
+                            {
+                                <th align="center">@cols[j]</th>
+                            }
+                            else
+                            {
+                                <td align="center">
+                                    <input type="checkbox" name="qId@(Model.Question.Id)[@i]" onclick="SetAnswerForMatrixMultiSelect('matrixMultiSelect-' + @Model.AnswerIndex , this)" value="@rows[i -1 ].Trim(),@cols[j].Trim()" />
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <input type="hidden" name="[@Model.AnswerIndex].AnswerText" id="matrixMultiSelect-@Model.AnswerIndex" value="" class='@(Model.Question.IsRequire == true ? "multiRequired" : "")' />
+    }
+
+    @if (Model.Question.Type == "Rating")
+    {
+        <div>
+
+            <ul id="ratingUL">
+                <a href="javascript:;" onclick="RatingClick(1, 'ratingQuestion-' + @Model.AnswerIndex)">
+                <li>
+                    <div id="terrible" class="bm-terrible"></div>
+                    <h4>Terrible</h4>
+                </li>
+                </a>
+                <a href="javascript:;" onclick="RatingClick(2, 'ratingQuestion-' + @Model.AnswerIndex)">
+                <li>
+                    <div id="bad" class="bm-bad"></div>
+                    <h4>Bad</h4>
+                </li>
+                </a>
+                <a href="javascript:;" onclick="RatingClick(3, 'ratingQuestion-' + @Model.AnswerIndex)">
+                <li>
+                    <div id="okay" class="bm-okay"></div>
+                    <h4>Okay</h4>
+                </li>
+                </a>
+                <a href="javascript:;" onclick="RatingClick(4, 'ratingQuestion-' + @Model.AnswerIndex)">
+                <li>
+                    <div id="good" class="bm-good"></div>
+                    <h4>Good</h4>
+                </li>
+                </a>
+                <a href="javascript:;" onclick="RatingClick(5, 'ratingQuestion-' + @Model.AnswerIndex)">
+                <li>
+                    <div id="great" class="bm-great"></div>
+                    <h4>Great</h4>
+                </li>
+                </a>
+            </ul>
+
+        </div>
+        <input type="hidden" name="[@Model.AnswerIndex].AnswerText" id="ratingQuestion-@Model.AnswerIndex" value="" class='@(Model.Question.IsRequire == true ? "multiRequired" : "")' />
+    }
+
+    @if (Model.Question.Type == "Net Promoter Score")
+    {
+        <table class="pure-table pure-table-horizontal">
+            <tr>
+                <td></td>
+                @for (var i = 0; i < 10; i++)
+                {
+                    <td align="center">@i</td>
+                }
+                <td></td>
+            </tr>
+            <tr>
+                <th>@Model.MinText</th>
+                @for (var i = 0; i < 10; i++)
+                {
+                    <td align="center"><input type="radio" name="[@Model.AnswerIndex].AnswerText" value="@i" required="@Model.Question.IsRequire"></td>
+                }
+                <th>@Model.MaxText</th>
+            </tr>
+        </table>
+    }
+
+    @if (Model.Question.Type == "Logic")
+    {
+        <ul class="@Model.Question.OptionsAlignment">
+            @foreach (var opt in Model.Options)
+            {
+                <li>
+                    <label>
+                        <input type="radio" name="[@Model.AnswerIndex].AnswerText" value="@opt" required="@Model.Question.IsRequire" onclick="LoadLogicQuestion(@Model.Question.Id, '@opt')"> @opt
+                    </label>
+                </li>
+            }
+        </ul>
+    }
+
+    <label for="[@Model.AnswerIndex].AnswerText" class="error"></label>
+    <label id="@(Model.AnswerIndex)AnswerText-ErrorLbl" class="customErr"></label>
+
+    @if (Model.Question.IsDocRequire == true)
+    {
+        <br />
+        <br />
+        <input type="file" name="[@Model.AnswerIndex].Doc" class="textInput large" required>
+    }
+</div>
+
+@if (Model.Question.Type == "Logic")
+{
+    <div class="logicalQuestion-@Model.Question.Id">
+
+    </div>
+}
+
+

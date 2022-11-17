@@ -1,0 +1,127 @@
+﻿@using SV.Models.ViewModels
+@model LauchSurveyViewModel
+@{
+    ViewBag.Title = $"{Model.Survey.Name} - Survey";
+    Layout = "~/Views/Shared/_SurveyPreviewLayout.cshtml";
+
+    ViewData["Language"] = Model.Survey.Language;
+
+    var childQuestions = Model.Options.Where(m => m.Question.ParentQuestionId != null || m.Question.ParentQuestionId != 0);
+    Model.Options = Model.Options.Where(m => m.Question.ParentQuestionId == null || m.Question.ParentQuestionId == 0).ToList();
+
+    int totalQuestions = Model.Options.Count;
+    int questionsPerPage = (int)Model.Survey.QuestionPerPage;
+    int totalPages = (int)Math.Ceiling((float)totalQuestions / (float)questionsPerPage);
+}
+
+<div id="progressbar"><div class="progress-label">0%</div></div>
+
+<form id="surveyForm" method="post" enctype="multipart/form-data">
+
+    <input type="hidden" name="surveyId" value="@Model.Survey.Id" />
+
+    @if (totalPages > 0)
+    {
+        for (int staringPageCounter = 1; staringPageCounter <= totalPages; staringPageCounter++)
+        {
+            int startingIndex = (staringPageCounter - 1) * questionsPerPage;
+            int endingIndex = startingIndex + questionsPerPage;
+
+
+
+            <div class="uniForm" id="screen-@staringPageCounter" style="display: none;">
+                <div class="header ">
+                    <div class="row fr_head">
+                        <div class="uniform-surveyTitle">
+                            @Model.Survey.Name
+                        </div>
+                        <div class="col-md-4 uniform-surveyLogo">
+                            <img src="~/sv/images/logo.png" style="height:53px;">
+                        </div>
+                    </div>
+                    <!--<div class="row fr_heading">
+                        <div class="col-md-12" style="padding: 0px 30px;">
+                            <h2>@Model.Survey.Name</h2>-->
+                    @*<p>SubHeading</p>*@
+                    <!--<p>&nbsp;</p>
+                        </div>
+                    </div>-->
+                </div>
+
+                @for (int x = startingIndex; x < endingIndex; x++)
+                {
+                    if (x < Model.Options.Count)
+                    {
+                        var option = Model.Options[x];
+                        TempData["IsParentQuestion"] = true;
+                        option.AnswerIndex = x;
+
+                        if (option.Question.Type == "Logic")
+                        {
+                            <partial name="_PreviewQuestion" model="option" />
+                            @*                          var itsChild = childQuestions.Where(x => x.Question.ParentQuestionId == option.Question.Id).FirstOrDefault();
+                                TempData["IsParentQuestion"] = false;
+                                <partial name="_PreviewQuestion" model="itsChild" />*@
+                        }
+                        else
+                        {
+                            <partial name="_PreviewQuestion" model="option" />
+                        }
+                    }
+
+                }
+
+                @if (staringPageCounter == totalPages)
+                {
+            <div class="buttonHolder">
+                @if (staringPageCounter != 1)
+                {
+                    <button type="button" class="primaryAction" onclick="ShowPage((@staringPageCounter - 1), @totalPages)">Previous</button>
+                }
+                @*@if (!User.IsInRole("Reviewer"))
+                {
+                    <button class="primaryAction" type="submit">Submit</button>
+                }
+                else
+                {*@
+                    <button class="primaryAction">End of Survey</button>
+                @*}*@
+
+            </div>
+                }
+                else
+                {
+                    <div class="buttonHolder">
+                        @if (staringPageCounter != 1)
+                        {
+                            <button type="button" class="primaryAction" onclick="ShowPage((@staringPageCounter - 1), @totalPages)">Previous</button>
+                        }
+                        <button type="button" class="primaryAction" onclick="ShowPage((@staringPageCounter + 1), @totalPages)">Next</button>
+                    </div>
+                }
+
+
+            </div>
+
+            <div id="footer" class="footer-@staringPageCounter" style="display: none;">
+                <p>© 2021 - Bank Nizwa Survey Application</p>
+            </div>
+        }
+    }
+
+</form>
+
+@section scripts
+{
+    <script src="~/sv/js/Preview.js"></script>
+    <script>
+        if('@Model.Survey.Language' == 'Arabic'){
+            $('html').attr('dir', 'rtl');
+
+        }
+    </script>
+}
+
+
+
+

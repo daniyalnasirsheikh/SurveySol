@@ -83,16 +83,25 @@
                     <div class="sidebar">
                     
                         <!-- sidebar menu -->
-                        @if (!User.IsInRole("User Manager"))
-                        {
-                            <ul class="side-nav sliding_menu collapsible">
+                        
+                        <ul class="side-nav sliding_menu collapsible">
+                            @if (!User.IsInRole("User Manager"))
+                            {
                                 <li class="dashboard"><a class="@ViewBag.DashboardActive" asp-controller="Home" asp-action="Index">Dashboard</a></li>
-                                <li><a class="@ViewBag.CreateSurveyActive" asp-controller="Survey" asp-action="Create">Create Surveys</a></li>
-                                <li><a class="@ViewBag.ManageSurveyActive" asp-controller="Survey" asp-action="Index">Manage Surveys</a></li>
-                                <li><a class="@ViewBag.LaunchSurveyActive" asp-controller="LaunchSurvey" asp-action="Index">Launch Survey</a></li>
-                                <li><a class="@ViewBag.SurveyStatisticsActive" asp-controller="SurveyStatistic" asp-action="Index">Surveys Statistics</a></li>
-                            </ul>   
-                        }
+                                @if (User.IsInRole("Pollster") || User.IsInRole("Admin"))
+                                {
+                                    <li><a class="@ViewBag.CreateSurveyActive" asp-controller="Survey" asp-action="Create">Create Surveys</a></li>
+                                    <li><a class="@ViewBag.ManageSurveyActive" asp-controller="Survey" asp-action="Index">Manage Surveys</a></li>
+                                }
+                                @if (User.IsInRole("Reviewer") || User.IsInRole("Admin"))
+                                {
+                                    <li><a class="@ViewBag.LaunchSurveyActive" asp-controller="LaunchSurvey" asp-action="Index">Launch Survey</a></li>
+                                    <li><a class="@ViewBag.SurveyStatisticsActive" asp-controller="SurveyStatistic" asp-action="Index">Surveys Statistics</a></li>
+                                    <li><a class="@ViewBag.InactiveSurveyActive" asp-controller="InactiveSurvey" asp-action="Index">Inactive Surveys</a></li>
+                                }
+                            }
+                        </ul>   
+                        
                         
                         <!-- // sidebar menu -->
                 

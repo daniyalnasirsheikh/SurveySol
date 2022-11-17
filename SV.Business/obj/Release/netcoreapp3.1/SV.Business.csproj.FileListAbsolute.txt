@@ -57,3 +57,18 @@ E:\Complete Systems\Survey Solution\SV\SV.Business\obj\Release\netcoreapp3.1\SV.
 E:\Complete Systems\Survey Solution\SV\SV.Business\obj\Release\netcoreapp3.1\SV.Business.csproj.CopyComplete
 E:\Complete Systems\Survey Solution\SV\SV.Business\obj\Release\netcoreapp3.1\SV.Business.dll
 E:\Complete Systems\Survey Solution\SV\SV.Business\obj\Release\netcoreapp3.1\SV.Business.pdb
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Business.deps.json
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Business.dll
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Business.pdb
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Data.dll
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Models.dll
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Data.pdb
+E:\Enum Solutions\SurveySolution\SV.Business\bin\Release\netcoreapp3.1\SV.Models.pdb
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.csproj.AssemblyReference.cache
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.AssemblyInfoInputs.cache
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.AssemblyInfo.cs
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.csproj.CoreCompileInputs.cache
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.csproj.CopyComplete
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.dll
+E:\Enum Solutions\SurveySolution\SV.Business\obj\Release\netcoreapp3.1\SV.Business.pdb

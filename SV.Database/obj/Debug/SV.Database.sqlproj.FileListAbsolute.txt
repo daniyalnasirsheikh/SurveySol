@@ -26,3 +26,12 @@ E:\Complete Systems\Survey Solution\SV\SV.Database\obj\Debug\postdeploy.sql
 E:\Complete Systems\Survey Solution\SV\SV.Database\obj\Debug\predeploy.sql
 E:\Complete Systems\Survey Solution\SV\SV.Database\obj\Debug\SV.Database.dll
 E:\Complete Systems\Survey Solution\SV\SV.Database\obj\Debug\SV.Database.pdb
+E:\Enum Solutions\SurveySolution\SV.Database\bin\Debug\SV.Database.dacpac
+E:\Enum Solutions\SurveySolution\SV.Database\bin\Debug\SV.Database.dll
+E:\Enum Solutions\SurveySolution\SV.Database\bin\Debug\SV.Database.pdb
+E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\Model.xml
+E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\refactor.xml
+E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\postdeploy.sql
+E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\predeploy.sql
+E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\SV.Database.dll
+E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\SV.Database.pdb
