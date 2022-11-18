@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using DNTCaptcha.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using SV.Business.Interfaces;
 using SV.Models.ViewModels;
@@ -17,12 +19,18 @@ namespace SV.WebApp.Controllers
         private readonly IUsersLogRepository userRepository;
         private readonly UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> signInManager;
+        private readonly IDNTCaptchaValidatorService validatorService;
+        private readonly DNTCaptchaOptions captchaOptions;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IUsersLogRepository userRepository)
+        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, 
+            IUsersLogRepository userRepository, IDNTCaptchaValidatorService validatorService, 
+            IOptions<DNTCaptchaOptions> captchaOptions)
         {
             this.userRepository = userRepository;
             this.userManager = userManager;
             this.signInManager = signInManager;
+            this.validatorService = validatorService;
+            this.captchaOptions = captchaOptions==null?throw new ArgumentNullException(nameof(captchaOptions)):captchaOptions.Value;
         }
 
         [HttpGet]
@@ -92,29 +100,41 @@ namespace SV.WebApp.Controllers
 
         //[Route("/admin")]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                IdentityUser user = new IdentityUser() { UserName = model.Username };
-                var res = await signInManager.PasswordSignInAsync(model.Username, model.Password, isPersistent: model.RememberMe, true);
-
-                if (res.Succeeded)
+                
+                if (!validatorService.HasRequestValidCaptchaEntry(Language.English, DisplayMode.ShowDigits))
                 {
-                    System.DateTime lastLoginDate = DateTime.Now;
-                    //string sqlFormattedDate = dateCreated.ToString("yyyy-MM-dd HH:mm:ss.fff");
-                    userRepository.InsertLastLoggedInDate(lastLoginDate, model.Username);
-
-                    return RedirectToAction(nameof(Login));
+                    model.ErrorMessage = "Please enter the correct captcha.";
+                    //return RedirectToAction(nameof(Login));
                 }
                 else
                 {
-                    model.ErrorMessage = "Invalid username or password.";
+                    IdentityUser user = new IdentityUser() { UserName = model.Username };
+                    var res = await signInManager.PasswordSignInAsync(model.Username, model.Password, isPersistent: model.RememberMe, true);
+                    if (res.Succeeded)
+                    {
+                        System.DateTime lastLoginDate = DateTime.Now;
+                        //string sqlFormattedDate = dateCreated.ToString("yyyy-MM-dd HH:mm:ss.fff");
+                        userRepository.InsertLastLoggedInDate(lastLoginDate, model.Username);
+
+                        return RedirectToAction(nameof(Login));
+                    }
+                    else
+                    {
+                        model.ErrorMessage = "Invalid username or password.";
+                    }
+                    if (res.IsLockedOut)
+                    {
+                        model.ErrorMessage = "Your account has been locked following 5 invalid login attempts. Please try again after 15 minutes.";
+                    }
                 }
-                if (res.IsLockedOut)
-                {
-                    model.ErrorMessage = "Your account has been locked following 5 invalid login attempts. Please try again after 15 minutes.";
-                }
+
+
+                
                 
             }
             else

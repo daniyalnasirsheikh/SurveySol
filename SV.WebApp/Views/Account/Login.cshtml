@@ -10,41 +10,63 @@
                     
     <div id="login_logo"></div>
                                                             
-    <form class="form-signin" id="validation" asp-controller="Account" asp-action="Login" method="post">
+    <form class="form-signin" id="validation" asp-controller="Account" asp-action="Login" method="post" asp-antiforgery="true">
 
         <p>Username:</p>
         <div class="input-prepend">
             <span class="add-on"><span class="icon-user"></span></span>
-			<input type="text" class="span11 validate[required]" placeholder="Username" asp-for="Username">
+            <input type="text" class="span11 validate[required]" placeholder="Username" asp-for="Username">
         </div>
-                        
+
         <p>Password:</p>
         <div class="input-prepend">
             <span class="add-on"><span class="icon-lock"></span></span>
             <input type="password" class="span11 validate[required]" placeholder="Password" asp-for="Password">
         </div>
-                        
-        @if(!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+
+        @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
         {
             <div class="alert login-alert">
-				@Model.ErrorMessage
-			</div>       
+                @Model.ErrorMessage
+            </div>
         }
-                        
+
+        <div class="input-group mb-3">
+             <dnt-captcha asp-captcha-generator-max="999999"
+                    asp-captcha-generator-min="111111"
+                    asp-captcha-generator-language="English"
+                    asp-captcha-generator-display-mode="ShowDigits"
+                    asp-use-relative-urls="true"
+                    asp-placeholder="Enter Captcha"
+                    asp-validation-error-message="Please enter the security code"
+                    asp-font-name="Tahoma"
+                    asp-font-size="20"
+                    asp-fore-color="#333333"
+                    asp-back-color="#ccc"
+                    asp-text-box-class="text-box form-control"
+                    asp-text-box-template="<span class='input-group-prepend'><span class='form-group-text'></span></span>{0}"
+                    asp-validation-message-class="text-danger"
+                    asp-refresh-button-class="fas fa-redo btn-sm"
+                    asp-show-refresh-button="true"
+                          asp-use-noise="false"
+
+                          />
+        </div>
+
         <label class="checkbox inline pull-left">
             <input type="checkbox" asp-for="RememberMe"> Remember me
         </label>
-                
+
         <button class="btn btn-info pull-right" type="submit">Log in</button>
-                        
+
         <div class="clear"></div>
-                                                                    
+
         <a asp-controller="Home" asp-action="Index" class="mt10 pull-left">&larr; Back to site</a>
-                        
+
         <a asp-action="ForgetPassword" class="pull-right mt10">Lost your password?</a>
-                        
+
         <div class="clear"></div>
-                        
+
     </form>
                                                           
 </div>

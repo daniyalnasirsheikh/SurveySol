@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using DNTCaptcha.Core;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -43,7 +44,9 @@ namespace SV.WebApp
             services.AddDbContextPool<SVDBContext>(
                    options => options.UseSqlServer(Configuration.GetConnectionString("SVDB"))
                );
-
+            services.AddDNTCaptcha(options =>
+                    options.UseCookieStorageProvider()
+                    .ShowThousandsSeparators(false).WithEncryptionKey("123456"));
             //services.AddIdentity<IdentityUser, IdentityRole>()
             //    .AddEntityFrameworkStores<SVDBContext>()
             //    .AddDefaultTokenProviders();

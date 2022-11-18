@@ -858,3 +858,10 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.csp
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.pdb
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.genruntimeconfig.cache
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\DNTCaptcha.Core.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\SixLabors.Fonts.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.Drawing.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Debug\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cs
