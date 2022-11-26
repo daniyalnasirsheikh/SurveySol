@@ -1072,3 +1072,10 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\InactiveSurvey\Preview.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\InactiveSurvey\_PreviewQuestion.cshtml.g.cs
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\Razor\Views\Survey\Resubmit.cshtml.g.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\DNTCaptcha.Core.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\SixLabors.Fonts.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\SixLabors.ImageSharp.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\SixLabors.ImageSharp.Drawing.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cs

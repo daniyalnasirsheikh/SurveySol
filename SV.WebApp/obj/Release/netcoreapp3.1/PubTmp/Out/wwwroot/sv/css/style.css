@@ -1,10 +1,16 @@
 /************************
 	CUSTOM BOOTSTRAP
 *************************/
-
+.captcha-textbox
+{
+	width: 97%;
+}
+#dntCaptchaImg {
+	margin-right:5px;
+}
 span.fit {
 	position: absolute;
-	top: 6px;	
+	top: 6px;
 }
 
 .margin-reset {
@@ -351,9 +357,9 @@ element.style {
       	margin-bottom: 15px;
       }
 	  
-	  .login-content {
+/*	  .login-content {
 		  padding-top: 8.0%!important;
-	  }
+	  }*/
 
 /******** Header ********/
 .navbar-inner {

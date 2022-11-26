@@ -48,7 +48,7 @@ using SV.Models.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bf4b86513f3038a412e311ab8a0c25a4ffd305ca", @"/Views/Survey/Preview.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1190a92d7293542a140bd67903d20c4c77e3e4b1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d25336d0c18f3e1fdf2947ea67e1c8f988f4f74", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Survey_Preview : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LauchSurveyViewModel>
     #nullable disable

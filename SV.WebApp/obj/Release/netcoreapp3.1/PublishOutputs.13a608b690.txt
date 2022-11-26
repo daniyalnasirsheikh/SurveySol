@@ -151,11 +151,15 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-UI-FileInput\images\icon-zip.gif
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-UI-FileInput\js\enhance.min.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-UI-FileInput\js\fileinput.jquery.js
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-validation\jquery.validate.unobtrusive.min.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-validation\jquery.validationEngine.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-validation\languages\jquery.validationEngine-en.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jQuery-validation\languages\jquery.validationEngine-pt.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jquery.dataTables.min.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jquery.js
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jquery.min.js
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jquery.unobtrusive-ajax.js
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jquery.validate.min.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\jspdf.min.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\Preview.js
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\sv\js\Rating.js
@@ -180,6 +184,7 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SV.WebApp.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SV.WebApp.runtimeconfig.json
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SV.WebApp.pdb
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\DNTCaptcha.Core.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Http.Features.dll
@@ -222,6 +227,9 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\NuGet.Frameworks.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SixLabors.Fonts.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SixLabors.ImageSharp.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SixLabors.ImageSharp.Drawing.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Collections.Immutable.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.ComponentModel.Annotations.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.AttributedModel.dll
@@ -236,6 +244,7 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Runtime.Caching.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Runtime.CompilerServices.Unsafe.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Text.Encoding.CodePages.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.resources.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.resources.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.resources.dll
@@ -300,6 +309,7 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SV.Business.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SV.Data.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\SV.Models.dll

@@ -48,7 +48,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f8ff522c8db6145f0c8ed35d1cda8d9d39ca067", @"/Views/LaunchSurvey/DeletePreviousReponses.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1190a92d7293542a140bd67903d20c4c77e3e4b1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d25336d0c18f3e1fdf2947ea67e1c8f988f4f74", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_LaunchSurvey_DeletePreviousReponses : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Survey>
     #nullable disable
