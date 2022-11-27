@@ -257,9 +257,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.97.0, )"
+            },
             "DNTCaptcha.Core": {
               "target": "Package",
               "version": "[4.3.3, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.1, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",

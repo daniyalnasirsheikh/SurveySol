@@ -9,7 +9,8 @@ namespace SV.Models.ViewModels
         public string Url { get; set; }
         public string EmailText { get; set; }
         public string ContactNumberText { get; set; }
-
+        public string medium { get; set; }
+        
         public string ErrorMessage { get; set; }
     }
 }
