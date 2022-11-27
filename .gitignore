@@ -2,17 +2,26 @@
 *jfm
 *v2
 *suo
+*dll
+*pdb
 
 .vs/SV/DesignTimeBuild/.dtbcache.v2
 
 .vs/SV/v16/.suo
 
-SV.Business/obj/Debug/netcoreapp3.1/SV.Business.csproj.AssemblyReference.cache
+SV.Business/obj/
 
-SV.Data/obj/Debug/netcoreapp3.1/SV.Data.csproj.AssemblyReference.cache
+SV.Business/bin/
 
-SV.Models/obj/Debug/netcoreapp3.1/SV.Models.csproj.AssemblyReference.cache
+SV.Data/bin/
 
-SV.WebApp/obj/Debug/netcoreapp3.1/SV.WebApp.csproj.AssemblyReference.cache
+SV.Data/obj/
+
+SV.Models/bin/
+
+SV.WebApp/obj/
 
 SV.Models/obj/
+/.vs/git/v17/.futdcache.v1
+/.vs/git/config/applicationhost.config
+/git.sln
