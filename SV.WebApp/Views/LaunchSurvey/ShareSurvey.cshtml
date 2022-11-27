@@ -2,11 +2,12 @@
 
 @{
     ViewData["Title"] = "Shared Survey Short Link";
+   
 }
 
-@if(!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+@if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
 {
-    <div class="alert alert-success">@Model.SuccessMessage</div>   
+    <div class="alert alert-success">@Model.SuccessMessage</div>
 }
 
 @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
@@ -22,9 +23,9 @@
         </h4>
     </div>
 
-    <div class="content">  
+    <div class="content">
 
-        <form class="form-horizontal" method="post">
+        <form id="surveyShareForm" class="form-horizontal" method="post">
             <br />
 
             <div class="rowelement padding-reset">
@@ -60,13 +61,13 @@
                 </div>
                 <div class="span5">
                     <textarea asp-for=EmailText class="input-block-level" rows="7" required></textarea>
-                        <p class="help-block inpass"> HINT: use this format <b> Name, Email </b> then press enter and so on... </p>
+                    <p id="survey-share-hint"class="help-block inpass"> HINT: use this format <b> Name, Email </b> then press enter and so on... </p>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="form-actions margin-reset">
                 <div class="pull-right">
-                    <button type="submit" class="btn btn-success pull-right">Send</button>
+                    <button type="submit" id="btn-survey-share" class="btn btn-success pull-right">Send</button>
                 </div>
             </div>
         </form>
@@ -76,5 +77,18 @@
 
 
 <script>
-    console.log(@Model.ErrorMessage);
+    @*console.log('ASP Error Summary'+ @Model.ErrorMessage);*@
+
+    $('#surveyShareForm input').on('change', function () {
+        var sendingMedium = $('input[type=radio]:checked', '#surveyShareForm').val();
+        console.log(sendingMedium);
+        if (sendingMedium == "sms") {
+            $("#survey-share-hint").html(" HINT: use this format <b> Name, Contact Number (Without Country Code) </b> then press enter and so on... ");
+            $("#btn-survey-share").html("Excel Export");
+        }
+        else {
+            $("#survey-share-hint").html(" HINT: use this format <b> Name, Email </b> then press enter and so on... ");
+            $("#btn-survey-share").html("Send");
+        }
+    });
 </script>

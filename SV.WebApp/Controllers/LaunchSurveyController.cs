@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using ClosedXML.Excel;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -9,6 +11,7 @@ using SV.Models.ViewModels;
 using SV.WebApp.Services;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Mail;
 using System.Threading.Tasks;
@@ -210,6 +213,7 @@ namespace SV.WebApp.Controllers
         {
             
             ViewBag.LaunchSurveyActive = "current";
+            ViewBag.SurveyType = surveyType;
             if (surveyType == "OPEN")
             {
                 try
@@ -238,55 +242,108 @@ namespace SV.WebApp.Controllers
 
             else
             {
-                try
+                if (model.medium.ToLower().Equals("sms"))
                 {
-                    List<SurveySharedWithCustomers> emailListObj = new List<SurveySharedWithCustomers>();
-                    string uniqueGeneratedTinyURL;
-                    string number;
-                    List<string> UserContactNumber = new List<string>();
-                    var emails = model.EmailText.Split("\n").ToList();
-
-                    List<MailAddress> addresses = new List<MailAddress>();
-
-                    foreach (var email in emails)
+                    try
                     {
-                        number = email.Split(",").Last();
-                        UserContactNumber.Add(number);
-                        var strs = email.Split(",");
-                        addresses.Add(new MailAddress(strs.ElementAtOrDefault(1).Trim(), strs.ElementAtOrDefault(0).Trim()));
-                    }
-
-                    for (int i = 0; i < addresses.Count; i++)
-                    {
-                        uniqueGeneratedTinyURL = uniqueSurveyURL + "/" + addresses[i].Address;
-                       // Uri myUri = new Uri(uniqueGeneratedTinyURL);
-
-                        uniqueGeneratedTinyURL = surveyRepository.GenerateTinyURL(uniqueGeneratedTinyURL);
-                        emailListObj.Add(new SurveySharedWithCustomers
+                        List<SurveySharedWithCustomers> emailListObj = new List<SurveySharedWithCustomers>();
+                        string uniqueGeneratedTinyURL;
+                        string contactNumber;
+                        int parseResult = 0;
+                        List<string> lstCustomerDetails = model.EmailText.Split("\n").ToList();
+                        List<string> lstContactNumber = new List<string>();
+                        
+                        lstContactNumber.AddRange(lstCustomerDetails.Select(e => e.Trim().Split(",").Last()));
+                        //bool testr = int.TryParse(lstContactNumber[0], out parseResult);
+                        IEnumerable<bool> isParsed = lstContactNumber.Select(n => int.TryParse(n, out parseResult));
+                        if (isParsed.Contains(false))
                         {
-                            SurveyID = CurrentSurveyID,
-                            Email = addresses[i].Address,
-                            ContactNumber = UserContactNumber[i],
-                            HasSubmitted = false,
-                            UniqueSurveyURL = uniqueGeneratedTinyURL
-                        });
-                    }
+                            model.ErrorMessage = "Only Numbers are allowed with names when 'By SMS' option is selected";
+                            return View(model);
+                        }
+                        List<MailAddress> addresses = new List<MailAddress>();
 
-                    emailRepository.InsertEmails(emailListObj);
-                    foreach (var address in addresses)
+                        for (int i = 0; i < lstContactNumber.Count; i++)
+                        {
+                            uniqueGeneratedTinyURL = uniqueSurveyURL + "/" + lstContactNumber[i];
+
+                            uniqueGeneratedTinyURL = surveyRepository.GenerateTinyURL(uniqueGeneratedTinyURL);
+                            emailListObj.Add(new SurveySharedWithCustomers
+                            {
+                                SurveyID = CurrentSurveyID,
+                                Email = lstContactNumber[i],
+                                ContactNumber = lstContactNumber[i],
+                                HasSubmitted = false,
+                                UniqueSurveyURL = uniqueGeneratedTinyURL
+                            });
+                        }
+
+                        emailRepository.InsertEmails(emailListObj);
+                        return Excel(emailListObj);
+                    }
+                    catch (Exception ex)
                     {
-                        uniqueGeneratedTinyURL = uniqueSurveyURL + "/" + address.Address;
-                        //Uri myUri = new Uri(uniqueGeneratedTinyURL);
-                        uniqueGeneratedTinyURL = surveyRepository.GenerateTinyURL(uniqueGeneratedTinyURL);
-                        //emailService.Send(address, model.Url);
-                        emailService.SendWithSMTP(address, uniqueGeneratedTinyURL);
+                        model.ErrorMessage = ex.Message;
                     }
-
-                    model.SuccessMessage = "Email sent successfully.";
                 }
-                catch (Exception ex)
+                else
                 {
-                    model.ErrorMessage = ex.Message;
+                    try
+                    {
+                        List<SurveySharedWithCustomers> emailListObj = new List<SurveySharedWithCustomers>();
+                        string uniqueGeneratedTinyURL;
+                        string number;
+                        string email;
+                        List<string> customerEmail = new List<string>();
+                        List<string> emails = model.EmailText.Trim().Split("\n").ToList();
+
+                        customerEmail.AddRange(emails.Select(e => e.Trim().Split(",").Last()));
+                        if (customerEmail.Contains("") || customerEmail.Contains(null))
+                        {
+                            model.ErrorMessage = "Email not provided";
+                            return View(model);
+                        }
+
+                        List<MailAddress> addresses = new List<MailAddress>();
+
+                        foreach (var e in emails)
+                        {
+                            var strs = e.Trim().Split(",");
+                            addresses.Add(new MailAddress(strs.ElementAtOrDefault(1).Trim(), strs.ElementAtOrDefault(0).Trim()));
+                        }
+
+                        for (int i = 0; i < addresses.Count; i++)
+                        {
+                            uniqueGeneratedTinyURL = uniqueSurveyURL + "/" + addresses[i].Address;
+                            // Uri myUri = new Uri(uniqueGeneratedTinyURL);
+
+                            uniqueGeneratedTinyURL = surveyRepository.GenerateTinyURL(uniqueGeneratedTinyURL);
+                            emailListObj.Add(new SurveySharedWithCustomers
+                            {
+                                SurveyID = CurrentSurveyID,
+                                Email = addresses[i].Address,
+                                ContactNumber = customerEmail[i],
+                                HasSubmitted = false,
+                                UniqueSurveyURL = uniqueGeneratedTinyURL
+                            });
+                        }
+
+                        emailRepository.InsertEmails(emailListObj);
+                        foreach (var address in addresses)
+                        {
+                            uniqueGeneratedTinyURL = uniqueSurveyURL + "/" + address.Address;
+                            //Uri myUri = new Uri(uniqueGeneratedTinyURL);
+                            uniqueGeneratedTinyURL = surveyRepository.GenerateTinyURL(uniqueGeneratedTinyURL);
+                            //emailService.Send(address, model.Url);
+                            emailService.SendWithSMTP(address, uniqueGeneratedTinyURL);
+                        }
+
+                        model.SuccessMessage = "Email sent successfully.";
+                    }
+                    catch (Exception ex)
+                    {
+                        model.ErrorMessage = ex.Message;
+                    }
                 }
             }
             return View(model);
@@ -324,6 +381,49 @@ namespace SV.WebApp.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+        public IActionResult Excel(List<SurveySharedWithCustomers> objCustomer)
+        {
+            System.IO.Stream spreadsheetStream = new System.IO.MemoryStream();
+            XLWorkbook workbook = new XLWorkbook();
+             
+            workbook.AddWorksheet("Survey");
+            var ws = workbook.Worksheet("Survey");
+
+            int row = 2;
+            ws.Cell("A" + "1").Value = "PhoneNo";
+            ws.Cell("B" + "1").Value = "Message";
+            
+            foreach (var c in objCustomer)
+            {
+                string test = $"";
+                ws.Cell("A" + row.ToString()).Value = c.ContactNumber + Environment.NewLine;
+                ws.Cell("B" + row.ToString()).Value = string.Format("Thank you for banking with us. We would appreciate your efforts in completing this survey to help us improve our services."+ Environment.NewLine + c.UniqueSurveyURL);
+                
+                row++;  
+            }
+            ws.Column("A").AdjustToContents();
+            ws.Column("B").AdjustToContents();
+
+            string filename = $"Customer SMS List-{DateTime.Now.ToString("M-dd-yyyy-T-H_m_ss")}.xlsx";
+            //workbook.SaveAs(@"E:\Enum Solutions\"+ filename);
+
+            using (var stream = new MemoryStream())
+            {
+                workbook.SaveAs(stream);
+                var content = stream.ToArray();
+
+                return File(
+                        content,
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        filename
+                        );
+
+            }
+            //spreadsheetStream.Position = 0;
+            //return new FileStreamResult(spreadsheetStream, "application/vnd.ms-excel") { FileDownloadName = filename };
+            
+        }
         
     }
 }
