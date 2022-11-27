@@ -22,3 +22,6 @@ SV.Models/bin/
 SV.WebApp/obj/
 
 SV.Models/obj/
+/.vs/git/v17/.futdcache.v1
+/.vs/git/config/applicationhost.config
+/git.sln
