@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace SV.WebApp.Controllers
@@ -304,12 +305,22 @@ namespace SV.WebApp.Controllers
                             return View(model);
                         }
 
+
                         List<MailAddress> addresses = new List<MailAddress>();
 
                         foreach (var e in emails)
                         {
                             var strs = e.Trim().Split(",");
-                            addresses.Add(new MailAddress(strs.ElementAtOrDefault(1).Trim(), strs.ElementAtOrDefault(0).Trim()));
+                            if (Regex.IsMatch(strs[1], "^\\S+@\\S+\\.\\S+$"))
+                            {
+                                addresses.Add(new MailAddress(strs.ElementAtOrDefault(1).Trim(), strs.ElementAtOrDefault(0).Trim()));
+                            }
+                            else
+                            {
+                                model.ErrorMessage = "Invalid Email Syntax";
+                                addresses.Clear();
+                                return View(model);
+                            }
                         }
 
                         for (int i = 0; i < addresses.Count; i++)
