@@ -35,4 +35,3 @@ E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\postdeploy.sql
 E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\predeploy.sql
 E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\SV.Database.dll
 E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\SV.Database.pdb
-E:\Enum Solutions\SurveySolution\SV.Database\obj\Debug\SV.Database.sqlproj.AssemblyReference.cache
