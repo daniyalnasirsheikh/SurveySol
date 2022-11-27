@@ -32,17 +32,35 @@
                     <p>Survey url:</p>
                 </div>
                 <div class="span5">
-                    <input type="text" asp-for=Url class="input-block-level" readonly required style="cursor: pointer;"/>
+                    <input type="text" asp-for=Url class="input-block-level" readonly required style="cursor: pointer;" />
                 </div>
                 <div class="clear"></div>
             </div>
+            @if (ViewBag.SurveyType == "CLOSED")
+            {
+                <div class="rowelement padding-reset">
+                    <div class="span3">
+                        <p>Select Medium:</p>
+                    </div>
+                    <div class="span5">
+                        <label class="radio inline">
+                            <input type="radio" asp-for=medium value="email" checked="checked"> By Email
+                        </label>
+                        <label class="radio inline">
+                            <input type="radio" asp-for=medium value="sms"> By SMS
+                        </label>
+                    </div>
+                </div>
+            }
+
+
             <div class="rowelement padding-reset">
                 <div class="span3">
                     <p>Emails List:</p>
                 </div>
                 <div class="span5">
                     <textarea asp-for=EmailText class="input-block-level" rows="7" required></textarea>
-                    <p class="help-block inpass"> HINT: use this format <b> Name,Email </b> then press enter and so on... </p>
+                        <p class="help-block inpass"> HINT: use this format <b> Name, Email </b> then press enter and so on... </p>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -59,5 +77,4 @@
 
 <script>
     console.log(@Model.ErrorMessage);
-
 </script>

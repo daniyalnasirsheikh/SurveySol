@@ -179,7 +179,7 @@ namespace SV.WebApp.Controllers
                 //        return NotFound();
                 //    }
                 //}
-
+                ViewBag.SurveyType = surveyType;
                 string surveyURL = uRLConfig.URL + "survey/surveyresponse/" + id;
 
                 uniqueSurveyURL = surveyURL;
