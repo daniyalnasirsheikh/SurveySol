@@ -1079,3 +1079,9 @@ E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\SixLabors.I
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 E:\Enum Solutions\SurveySolution\SV.WebApp\obj\Release\netcoreapp3.1\SV.WebApp.MvcApplicationPartsAssemblyInfo.cs
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\ClosedXML.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\DocumentFormat.OpenXml.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\ExcelNumberFormat.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\Irony.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\System.IO.Packaging.dll
+E:\Enum Solutions\SurveySolution\SV.WebApp\bin\Release\netcoreapp3.1\XLParser.dll

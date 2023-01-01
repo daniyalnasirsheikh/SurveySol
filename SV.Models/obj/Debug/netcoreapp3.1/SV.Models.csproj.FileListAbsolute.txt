@@ -36,3 +36,4 @@ E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.Ass
 E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.csproj.CoreCompileInputs.cache
 E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.dll
 E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.pdb
+E:\Enum Solutions\SurveySolution\SV.Models\obj\Debug\netcoreapp3.1\SV.Models.csproj.AssemblyReference.cache

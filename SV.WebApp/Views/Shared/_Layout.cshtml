@@ -45,9 +45,11 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">@User.Identity.Name <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a asp-controller="Pollster" asp-action="Update"><span class="icon-user"></span> <strong>My Account</strong></a></li>
-                                @if(User.IsInRole("Admin"))
+                                @if (User.IsInRole("Admin"))
                                 {
-                                    <li><a asp-controller="User" asp-action="Index"><span class="icon-user"></span> Users</a></li>       
+                                    <li><a asp-controller="User" asp-action="Index"><span class="icon-user"></span> Users</a></li>
+                                    <li><a asp-controller="Department" asp-action="Read"><span class="icon-file"></span> Departments</a></li>
+
                                 }
                                 <li><a asp-controller="Account" asp-action="Logout"><span class="icon-off"></span> <strong>Logout</strong></a></li>
                             </ul>

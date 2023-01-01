@@ -9,5 +9,8 @@ namespace SV.Business.Interfaces
     {
         public List<Departments> GetAllDepartments();
         public Departments GetDepartmentByDepartmentID(int DepartmentID);
+        public void CreateDepartment(Departments model);
+        public void UpdateDepartment(Departments model);
+        public void DeleteDepartment(int departmentId);
     }
 }

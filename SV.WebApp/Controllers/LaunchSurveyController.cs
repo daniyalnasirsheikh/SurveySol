@@ -255,13 +255,40 @@ namespace SV.WebApp.Controllers
                         List<string> lstContactNumber = new List<string>();
                         
                         lstContactNumber.AddRange(lstCustomerDetails.Select(e => e.Trim().Split(",").Last()));
+
+                        List<long> positiveNumbers = lstContactNumber
+                            .Select(s => Int64.TryParse(s, out long n) ? n : (long?)null)
+                            .Where(n => n.HasValue && n.Value > 0)
+                            .Select(n => n.Value)
+                            .ToList();
+
+                        List<long> negativeNumbers = lstContactNumber
+                            .Select(s => Int64.TryParse(s, out long n) ? n : (long?)null)
+                            .Where(n => n.HasValue && n.Value < 0)
+                            .Select(n => n.Value)
+                            .ToList();
+
+                        List<long?> nullableInts = lstContactNumber
+                        .Select(s => Int64.TryParse(s, out long n) ? n : (long?)null)
+                        .ToList();
+
+                        if (negativeNumbers.Count > 0)
+                        {
+                            model.ErrorMessage = "Only positive numbers are allowed with names when 'By SMS' option is selected";
+                            return View(model);
+                        }
+
                         //bool testr = int.TryParse(lstContactNumber[0], out parseResult);
-                        IEnumerable<bool> isParsed = lstContactNumber.Select(n => int.TryParse(n, out parseResult));
-                        if (isParsed.Contains(false))
+                        //IEnumerable<bool> isParsed = lstContactNumber.Select(n => int.TryParse(n, out parseResult));
+                        if (nullableInts.Contains(null))
                         {
                             model.ErrorMessage = "Only Numbers are allowed with names when 'By SMS' option is selected";
                             return View(model);
                         }
+
+                        
+
+
                         List<MailAddress> addresses = new List<MailAddress>();
 
                         for (int i = 0; i < lstContactNumber.Count; i++)

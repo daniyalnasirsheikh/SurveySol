@@ -16,6 +16,52 @@ namespace SV.Business.Implementation
         {
 
         }
+
+        public void CreateDepartment(Departments model)
+        {
+            try
+            {
+                Departments obj = new Departments();
+                obj.Department = model.Department;
+                DBSet.Add(obj);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+            }
+
+        }
+
+        public void UpdateDepartment(Departments model)
+        {
+            try
+            {
+                Departments obj = new Departments();
+                obj = DBSet.Where(x => x.ID == model.ID).FirstOrDefault();
+                obj.Department = model.Department;
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+            }
+
+        }
+
+        public void DeleteDepartment(int departmentId)
+        {
+            try
+            {
+                Departments obj = new Departments();
+                obj = DBSet.Where(x => x.ID.Equals(departmentId)).FirstOrDefault();
+                DBSet.Remove(obj);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+            }
+
+        }
+
         public List<Departments> GetAllDepartments()
         {
             List<Departments> result = new List<Departments>();
