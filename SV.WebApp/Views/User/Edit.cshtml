@@ -32,7 +32,7 @@
 @{
     List<Departments> checkedDepartments = new List<Departments>();
     List<Departments> uncheckedDepartments = new List<Departments>();
-    if (ViewBag.AllDepartments != null && ViewBag.UserDepartments != null)
+    if (ViewBag.AllDepartments != null && ViewBag.UserDepartments[0] != "")
     {
 
         List<Departments> lstDepartments = ViewBag.AllDepartments;
@@ -40,6 +40,10 @@
         List<int> dptIds = ids.Select(int.Parse).ToList();
         checkedDepartments = lstDepartments.Where(x => dptIds.Contains(x.ID)).ToList();
         uncheckedDepartments = lstDepartments.Where(x => !dptIds.Contains(x.ID)).ToList();
+    }
+    else
+    {
+        List<Departments> lstDepartments = ViewBag.AllDepartments;
     }
 };
 <script>

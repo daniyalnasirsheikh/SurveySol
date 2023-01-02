@@ -8,7 +8,7 @@
 @{
     List<Departments> checkedDepartments = new List<Departments>();
     List<Departments> uncheckedDepartments = new List<Departments>();
-    if (ViewBag.Departments != null && ViewBag.EditDepartments != null)
+    if ((ViewBag.Departments != null && ViewBag.EditDepartments != null) && (ViewBag.Departments != null && ViewBag.EditDepartments[0] != ""))
     {
 
         List<Departments> lstDepartments = ViewBag.Departments;
@@ -16,6 +16,10 @@
         List<int> dptIds = ids.Select(int.Parse).ToList();
         checkedDepartments = lstDepartments.Where(x => dptIds.Contains(x.ID)).ToList();
         uncheckedDepartments = lstDepartments.Where(x => !dptIds.Contains(x.ID)).ToList();
+    }
+    else
+    {
+        List<Departments> lstDepartments = ViewBag.Departments;
     }
 
 };
@@ -198,3 +202,18 @@
 
     </div>
 </div>
+
+<script>
+
+    var checkbox_required = $('input[type="checkbox"]');
+
+    checkbox_required.prop('required', true);
+
+    checkbox_required.on('click', function () {
+        if (checkbox_required.is(':checked')) {
+            checkbox_required.prop('required', false);
+        } else {
+            checkbox_required.prop('required', true);
+        }
+    });
+</script>
