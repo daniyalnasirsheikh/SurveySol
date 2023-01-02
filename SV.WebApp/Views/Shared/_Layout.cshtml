@@ -31,62 +31,61 @@
 <body>
 
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-        
-           <div id="header">  
-                <div id="logo">
-                    <a href="#"><h1>mySurvey</h1></a>
-                </div>
-    
-                <div id="info">
-                    <ul id="userBox">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">@User.Identity.Name <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a asp-controller="Pollster" asp-action="Update"><span class="icon-user"></span> <strong>My Account</strong></a></li>
-                                @if (User.IsInRole("Admin"))
-                                {
-                                    <li><a asp-controller="User" asp-action="Index"><span class="icon-user"></span> Users</a></li>
-                                    <li><a asp-controller="Department" asp-action="Read"><span class="icon-file"></span> Departments</a></li>
+        <div class="navbar-inner">
+            <div class="container">
 
-                                }
-                                <li><a asp-controller="Account" asp-action="Logout"><span class="icon-off"></span> <strong>Logout</strong></a></li>
-                            </ul>
-                      	</li>
-                    </ul>
+                <div id="header">
+                    <div id="logo">
+                        <a href="#"><h1>mySurvey</h1></a>
+                    </div>
+
+                    <div id="info">
+                        <ul id="userBox">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">@User.Identity.Name <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a asp-controller="Pollster" asp-action="Update"><span class="icon-user"></span> <strong>My Account</strong></a></li>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li><a asp-controller="User" asp-action="Index"><span class="icon-user"></span> Users</a></li>
+                                        <li><a asp-controller="Department" asp-action="Read"><span class="icon-file"></span> Departments</a></li>
+
+                                    }
+                                    <li><a asp-controller="Account" asp-action="Logout"><span class="icon-off"></span> <strong>Logout</strong></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
+
             </div>
-
         </div>
-      </div>
     </div>
 
     <div id="main">
-    	
+
         <!-- Breadcrumb -->
         <div class="container">
-			<ul class="breadcrumb">
-             	<li class="active"><a asp-controller="Home" asp-action="Index"><span class="icon_dash"></span>Dashboard</a></li>
-         	</ul>
+            <ul class="breadcrumb">
+                <li class="active"><a asp-controller="Home" asp-action="Index"><span class="icon_dash"></span>Dashboard</a></li>
+            </ul>
         </div>
         <!-- // Breadcrumb -->
-        
         <!-- container -->
         <div class="container bg">
-        	
+
             <!-- row -->
             <div class="row">
-            	
+
                 <!-- span3 -->
                 <div class="span3">
-                
+
                     <!-- SIDEBAR -->
                     <div class="sidebar">
-                    
+
                         <!-- sidebar menu -->
-                        
+
                         <ul class="side-nav sliding_menu collapsible">
                             @if (!User.IsInRole("User Manager"))
                             {
@@ -103,37 +102,34 @@
                                     <li><a class="@ViewBag.InactiveSurveyActive" asp-controller="InactiveSurvey" asp-action="Index">Inactive Surveys</a></li>
                                 }
                             }
-                        </ul>   
-                        
-                        
+                        </ul>
+
+
                         <!-- // sidebar menu -->
-                
-            		</div><!-- // SIDEBAR -->  
-                    
+
+                    </div><!-- // SIDEBAR -->
                     <!-- SIDEBAR -->
                     <div class="sidebar tb mt20">
-                    	<div class="sidebar-wrap">
-                        	<p><span class="label label-info">Notice:</span> some notice</p> 
+                        <div class="sidebar-wrap">
+                            <p><span class="label label-info">Notice:</span> some notice</p>
                         </div>
                     </div>
                     <!-- // SIDEBAR -->
-                    
                     <!-- SIDEBAR -->
                     <div class="sidebar tb mt20 mb20">
-                    	<div class="sidebar-wrap">
+                        <div class="sidebar-wrap">
                             <p>Bank Nizwa Survey Portal</p>
                         </div>
                     </div>
                     <!-- // SIDEBAR -->
-                    
+
                     <div class="clear"></div>
-                    
-        		</div><!-- // span3 -->
-                
+
+                </div><!-- // span3 -->
                 <!-- span 9 -->
-                <div class="span9">  
-                	
-                    <div class="pagetitle">    
+                <div class="span9">
+
+                    <div class="pagetitle">
                         <h2>@ViewData["Title"]</h2>
                         @*<p>Welcome <a href="#">Username</a>.</p>*@
                     </div>
@@ -141,19 +137,18 @@
                         @RenderBody()
                     </div>
                 </div>
-                </div>
-                <!-- // span9 --> 
             </div>
-            <!-- // row -->
+            <!-- // span9 -->
         </div>
-        <!-- // container -->
+        <!-- // row -->
+    </div>
+    <!-- // container -->
     </div>
 
 
     <!-- jQuery Library -->
     <script type="text/javascript" src="~/sv/js/jquery.js"></script>
     <!-- // jQuery Library -->
-    
     <!-- Charts -->
     <script type="text/javascript" src="~/sv/js/charts/flot/jquery.flot.js"></script>
     <script type="text/javascript" src="~/sv/js/charts/flot/jquery.flot.pie.js"></script>
@@ -161,46 +156,43 @@
     <script type="text/javascript" src="~/sv/js/charts/flot/jquery.flot.axislabels.js"></script>
     <script type="text/javascript" src="~/sv/js/charts/flot/jquery.flot.resize.js"></script>
     <!-- // Charts -->
-    
-	<!-- Forms -->
-    <script type="text/javascript" src="~/sv/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="~/sv/js/dataTable_bootstrap.js"></script>
+    <!-- Forms -->
+
+    @*<script type="text/javascript" src="~/sv/js/dataTable_bootstrap.js"></script>*@
     <script type="text/javascript" src="~/sv/js/jquery-ui-1.8.16.custom.min.js"></script>
     <script type="text/javascript" src="~/sv/js/jQuery-UI-FileInput/js/enhance.min.js"></script>
-   	<script type="text/javascript" src="~/sv/js/jQuery-UI-FileInput/js/fileinput.jquery.js"></script>
+    <script type="text/javascript" src="~/sv/js/jQuery-UI-FileInput/js/fileinput.jquery.js"></script>
     <script type="text/javascript" src="~/sv/js/jQuery-validation/jquery.validationEngine.js"></script>
     <script type="text/javascript" src="~/sv/js/jQuery-validation/languages/jquery.validationEngine-en.js"></script>
     <!-- // Forms -->
-        
     <!-- Core -->
     <script type="text/javascript" src="~/sv/js/bootstrap.js"></script>
     <script type="text/javascript" src="~/sv/js/accordion.jquery.js"></script>
     <script type="text/javascript" src="~/sv/js/survey.js"></script>
 
-    
+
     <!-- // Core -->
-    
+
 
     <script type="text/javascript" src="~/sv/themes/default/js/uni-form.jquery.min.js"></script>
     <script type="text/javascript" src="~/sv/themes/default/js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="~/sv/js/jquery-ui-1.8.16.custom.min.js"></script>
-    <script src="~/sv/js/Rating.js"></script>   	    
-    
-        
-	<!-- html5.js for IE less than 9 -->
+    <script src="~/sv/js/Rating.js"></script>
+
+
+    <!-- html5.js for IE less than 9 -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
     <!-- css3-mediaqueries.js for IE less than 9 -->
     <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-    
     <!--[if lt IE 9]><script src="js/charts/flot/excanvas.min.js"></script><![endif]-->
-	
-
-
-    @RenderSection("scripts", required: false)
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+    @*<script type="text/javascript" src="~/sv/js/jquery.dataTables.min.js"></script>*@
+<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+        @RenderSection("scripts", required: false)
 </body>
 </html>

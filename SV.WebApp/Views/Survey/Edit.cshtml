@@ -1,12 +1,28 @@
 ﻿@model Survey
+@using SV.WebApp.Models
+@using System.Linq
 @{
     ViewData["Title"] = "Edit Suvey";
 }
 
+@{
+    List<Departments> checkedDepartments = new List<Departments>();
+    List<Departments> uncheckedDepartments = new List<Departments>();
+    if (ViewBag.Departments != null && ViewBag.EditDepartments != null)
+    {
+
+        List<Departments> lstDepartments = ViewBag.Departments;
+        string[] ids = ViewBag.EditDepartments;
+        List<int> dptIds = ids.Select(int.Parse).ToList();
+        checkedDepartments = lstDepartments.Where(x => dptIds.Contains(x.ID)).ToList();
+        uncheckedDepartments = lstDepartments.Where(x => !dptIds.Contains(x.ID)).ToList();
+    }
+
+};
 <div class="box">
     <div class="header"><h4>Edit Survey</h4></div>
     <div class="content">
-                            
+
         <form asp-action="Edit" class="form-horizontal margin-reset" method="post" enctype="multipart/form-data">
 
             <input type="hidden" asp-for=Id />
@@ -36,12 +52,17 @@
                     Survey Department:
                 </div>
                 <div class="span5">
-                    @foreach (var d in ViewBag.Departments)
+                    @foreach (var d in @checkedDepartments)
                     {
                         <span class="chk-box-spn">
-                            <input name="Department" type="checkbox"  style="margin:0px 4px 0 0;"  id="@d.ID" value="@d.ID">@d.Department
+                            <input name="Department" type="checkbox" style="margin:0px 4px 0 0;" id="@d.ID" value="@d.ID" checked>@d.Department
                         </span>
-
+                    }
+                    @foreach (var u in uncheckedDepartments)
+                    {
+                        <span class="chk-box-spn">
+                            <input name="Department" type="checkbox" style="margin:0px 4px 0 0;" id="@u.ID" value="@u.ID">@u.Department
+                        </span>
                     }
 
                 </div>
@@ -174,6 +195,6 @@
             </div>
 
         </form>
-                                
+
     </div>
 </div>

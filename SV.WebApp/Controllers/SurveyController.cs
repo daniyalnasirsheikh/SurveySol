@@ -111,6 +111,7 @@ namespace SV.WebApp.Controllers
             }
 
             var model = surveyRepository.GetByID(id);
+            ViewBag.EditDepartments = model.DepartmentIds.Split(',');
             ViewBag.Departments = departmentRepository.GetAllDepartments();
             return View(model);
         }

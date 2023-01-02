@@ -4,7 +4,6 @@
     ViewData["Title"] = "User Management";
 
     var roles = new List<SelectListItem>();
-
     //if (ViewBag.IsUserManager == true)
     //{
     //    roles = new List<SelectListItem>()
@@ -30,7 +29,19 @@
         };
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 }
+@{
+    List<Departments> checkedDepartments = new List<Departments>();
+    List<Departments> uncheckedDepartments = new List<Departments>();
+    if (ViewBag.AllDepartments != null && ViewBag.UserDepartments != null)
+    {
 
+        List<Departments> lstDepartments = ViewBag.AllDepartments;
+        string[] ids = ViewBag.UserDepartments;
+        List<int> dptIds = ids.Select(int.Parse).ToList();
+        checkedDepartments = lstDepartments.Where(x => dptIds.Contains(x.ID)).ToList();
+        uncheckedDepartments = lstDepartments.Where(x => !dptIds.Contains(x.ID)).ToList();
+    }
+};
 <script>
     var currentUserRole = '@ViewBag.UserRole';
     console.log(currentUserRole);
@@ -150,12 +161,18 @@
                     <p>Department:</p>
                 </div>
                 <div class="span5 checkbox-group required">
-                    @foreach (var d in ViewBag.Departments)
+                    @foreach (var d in @checkedDepartments)
                     {
                         <span class="chk-box-spn">
-                            <input class="chkboxDepartments" name="Departments" style="margin:0px 4px 0 0;" type="checkbox" id="@d.ID" value="@d.ID">@d.Department
+                            <input checked class="chkboxDepartments" name="Departments" style="margin:0px 4px 0 0;" type="checkbox" id="@d.ID" value="@d.ID">@d.Department
                         </span>
+                    }
 
+                    @foreach (var u in uncheckedDepartments)
+                    {
+                        <span class="chk-box-spn">
+                            <input class="chkboxDepartments" name="Departments" style="margin:0px 4px 0 0;" type="checkbox" id="@u.ID" value="@u.ID">@u.Department
+                        </span>
                     }
                 </div>
                 <div class="clear"></div><br />

@@ -163,7 +163,9 @@ namespace SV.WebApp.Controllers
 
 
             //ViewBag.UserRole = role;
-            ViewBag.Departments = departmentRepository.GetAllDepartments();
+            ViewBag.AllDepartments = departmentRepository.GetAllDepartments();
+            string userDeprtments = userDepartmentRepository.GetUserDepartmentIDs(id);
+            ViewBag.UserDepartments = userDeprtments.Split(',');
             var model = new UserViewModel { Id = user.Id, Username = user.UserName, Email = user.Email, Role = role };
             return View(model);
         }
